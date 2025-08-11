@@ -2,8 +2,7 @@
 /*
 Template Name: Portfolio Page
 */
-get_header();
-?>
+get_header(); ?>
 <section class="portfolio-hero-section">
     <div class="portfolio-hero-content">
       <h1>Your Personal SEO Specialist</h1>
@@ -18,4 +17,37 @@ get_header();
       </div>
     </div>
   </section>
+  <section class="portfolio-clients-carousel">
+  <div class="swiper portfolio-carousel">
+    <div class="swiper-wrapper">
+      <!-- slide 1 -->
+      <div class="swiper-slide case-study-card">
+        <h3>Challenge</h3>
+        <p>Increase form submissions by 53% in 3 months.</p>
+        <h4>Approach</h4>
+        <ul>
+          <li>PPC reallocation</li>
+          <li>On-page SEO</li>
+          <li>UX improvements</li>
+        </ul>
+        <a href="#">View Case Study →</a>
+      </div>
+      <!-- slide 2 -->
+      <div class="swiper-slide case-study-card">
+        <h3>Challenge</h3>
+        <p>Boost organic traffic by 150%.</p>
+        <h4>Approach</h4>
+        <ul>
+          <li>Technical audit</li>
+          <li>Content gap analysis</li>
+          <li>Link-building</li>
+        </ul>
+        <a href="#">View Case Study →</a>
+      </div>
+      <!-- add more slides as needed -->
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
 <?php get_footer(); ?>

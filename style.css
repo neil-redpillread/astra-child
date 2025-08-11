@@ -707,7 +707,14 @@ body.home
   margin-top: 1.5rem;
 }
 }
-
+@media (min-width: 992px) {
+.site-content .ast-container {
+ flex-direction: column; 
+}
+}
+body.page-template-portfolio-page .portfolio-clients-carousel {
+  margin-top: 5rem;   
+}
 @keyframes slideInFromLeft {
   from {
     opacity: 0;
