@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     breakpoints: {
       768: { slidesPerView: 1, spaceBetween: 28 },
       1024:{ slidesPerView: 2, spaceBetween: 40 }
-    }
+    },
+    watchOverflow: false
   });
 });
 

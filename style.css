@@ -730,6 +730,13 @@ body.page-template-portfolio-page .swiper-slide.case-study-card {
   padding: 24px;
   min-height: 360px;              
 }
+body.page-template-portfolio-page .portfolio-clients-carousel{
+  position: relative;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
 @media (min-width: 768px) {
   body.page-template-portfolio-page .swiper-slide.case-study-card {
     min-height: 400px;
