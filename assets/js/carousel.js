@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     spaceBetween: 24,
     breakpoints: {
       768: { slidesPerView: 1, spaceBetween: 28 },
-      1024:{ slidesPerView: 2, spaceBetween: 40 }
+      1024:{ slidesPerView: 3, spaceBetween: 40 }
     },
     watchOverflow: false
   });
