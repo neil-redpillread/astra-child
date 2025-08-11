@@ -1,0 +1,744 @@
+/*
+
+ Theme Name:   Astra Child
+
+ Template:     astra
+
+ Version:      1.0.0
+
+
+
+*/
+
+
+
+  /* Add your custom CSS below */
+
+  header .custom-logo-link img {
+
+	max-width: 80px;
+
+	height: auto;
+
+}
+
+.main-header-bar .main-header-menu .menu-item {
+
+  margin: 0 1.5rem; 
+
+}
+
+body.home .main-header-bar {
+
+  background-color: transparent !important;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  z-index: 9999;
+
+  box-shadow: none !important; 
+
+}
+
+body.home .main-header-bar.sticky-header {
+
+  background-color: transparent !important;
+
+}
+
+body.home .site-content > .ast-container {
+
+  padding-top: 80px !important;
+
+}
+
+.main-header-bar,
+
+.main-header-bar.sticky-header {
+
+  border-bottom: none !important;
+
+  box-shadow: none !important;
+
+}
+
+@media (max-width: 921px) {
+
+	.ast-builder-menu-mobile 
+
+  .main-navigation 
+
+  .main-header-menu {
+
+    top:    0 !important;
+
+    bottom: 0 !important;
+
+    height: auto !important;
+
+    max-height: 100vh !important;
+
+    overflow-y: auto !important;
+
+  }
+
+body.home 
+
+  .ast-builder-menu-mobile 
+
+  .main-navigation 
+
+  .main-header-menu {
+
+    top: 82px !important;                         
+
+    max-height: calc(100vh - 82px) !important;    
+
+  }
+
+}
+
+.hero-section {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+}
+
+
+
+.hero-content {
+
+   display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: 2rem;
+
+    gap: 12rem; 
+
+    flex-wrap: wrap;
+
+}
+
+.video-wrapper {
+
+    width: 100%;
+
+    max-width: 500px;
+
+    aspect-ratio: 16 / 9;
+
+    margin-top: -40px;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+
+}
+
+.video-wrapper iframe {
+
+  width: 100%;
+
+    height: 100%;
+
+    border: none;
+
+    display: block;
+
+}
+
+
+
+.text-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex: 1;
+
+  max-width: 600px;
+
+   min-width: 300px;
+
+}
+
+
+
+.text-content h1 {
+
+  font-size: 2.75rem;
+
+  line-height: 1.2;
+
+  font-weight: 700;
+
+  margin-bottom: 1rem;
+
+}
+
+
+
+.text-content p {
+
+  font-size: 1.125rem;
+
+  line-height: 1.6;
+
+  margin-bottom: 1.5rem;
+
+}
+
+
+
+.cta-button {
+
+  display: inline-block;
+
+  padding: 0.75rem 1.5rem;
+
+  font-size: 1rem;
+
+  background-color: #ff0000;
+
+  color: #fff;
+
+  text-decoration: none;
+
+  border-radius: 25px;
+
+  transition: background 0.3s ease;
+
+   margin-left: -30px;
+
+}
+
+
+
+.cta-button:hover {
+
+  background-color: #cc0000;
+
+  color: white;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .hero-section {
+
+    padding-top: 0 !important;
+
+    margin-top: 0 !important;
+
+  }
+
+   .container {
+
+    padding-top: 0 !important;
+
+    margin-top: 0 !important;
+
+  }
+
+  .hero-content {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 3.5rem;
+
+     margin: 0 !important;
+
+  }
+
+
+
+ .text-content {
+
+    order: 2;
+
+    margin-top: -2.5rem;
+
+  }
+
+
+
+  .video-wrapper {
+
+    order: 1;
+
+    margin-bottom: 1.5rem;
+
+  }
+
+.hero-content .text-content {
+
+    order: 2;
+
+  }
+
+   .hero-content .video-wrapper {
+
+    order: 1;
+
+  }
+
+ .hero-content .cta-button {
+
+    order: 3;
+
+    margin-top: 0.5rem;
+
+    margin-left: 0.1rem;
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .hero-content {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: auto auto;
+
+    gap: 2rem 4rem;
+
+    align-items: start;
+
+  }
+
+  .video-wrapper {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2; /* spans both text rows */
+    max-width: 100%;
+    aspect-ratio: 16/9;
+    margin-top: 1rem;
+  }
+
+    .hero-content h1 {
+
+    grid-column: 2 / 3;
+
+    grid-row: 1 / 2;
+
+    text-align: left;
+
+  }
+
+   .text-content {
+
+    grid-column: 2 / 3;
+
+    grid-row: 2 / 3;
+
+    text-align: left;
+
+  }
+
+    .cta-button {
+
+    margin-top: 1.25rem;
+
+  }
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .hero-content .video-wrapper {
+
+    animation: slideInFromLeft 0.8s ease-out forwards;
+
+  }
+
+
+
+  .hero-content h1 {
+
+    animation: slideInFromRight 0.8s ease-out forwards;
+
+  }
+
+   .hero-content .text-content {
+
+    animation: slideInFromRight 0.8s ease-out forwards;
+
+    animation-delay: 0.1s;
+
+  }
+
+}
+
+.hero-content .video-wrapper,
+
+.hero-content h1,
+
+.hero-content .text-content {
+
+  opacity: 1;
+
+}
+
+@keyframes slideInFromLeft {
+
+  0% { opacity: 0; transform: translateX(-60px); }
+
+  100% { opacity: 1; transform: translateX(0); }
+
+}
+
+@keyframes slideInFromRight {
+
+  0% { opacity: 0; transform: translateX(60px); }
+
+  100% { opacity: 1; transform: translateX(0); }
+
+}
+
+.hero-content .video-wrapper,
+
+.hero-content h1,
+
+.hero-content .text-content {
+
+  opacity: 1;
+
+  will-change: transform, opacity;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .hero-content .video-wrapper,
+
+  .hero-content h1,
+
+  .hero-content .text-content {
+
+    opacity: 0;
+
+  }
+
+   .hero-content .video-wrapper {
+
+    animation: slideInFromLeft 0.8s ease-out forwards;
+
+  }
+
+    .hero-content h1 {
+
+    animation: slideInFromRight 0.8s ease-out forwards;
+
+  }
+
+    .hero-content .text-content {
+
+    animation: slideInFromRight 0.8s ease-out forwards;
+
+    animation-delay: 0.1s;
+
+  }
+
+}
+.portfolio-hero-section .portfolio-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  max-width: 480px;
+}
+.portfolio-hero-section .video-wrapper {
+  width: 100%;
+  position: relative;
+  padding-top: 56.25%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.portfolio-hero-section .video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: none;
+}
+.portfolio-hero-section .text-content {
+  width: 100%;
+  text-align: justify;
+}
+.portfolio-hero-section .text-content p {
+  margin-bottom: 1.5rem;
+}
+.portfolio-hero-section .cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #ff0000;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.portfolio-hero-section .cta-button:hover {
+  background-color: #cc0000;
+  color: #fff;
+}
+.portfolio-carousel {
+  padding: 2rem 0;
+}
+.portfolio-carousel .swiper-slide {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  }
+  .swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+  }
+@media (min-width: 768px) {
+  .portfolio-hero-section .portfolio-hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    align-items: start;     
+    margin: 1rem auto 0;
+    max-width: none;         
+  }
+   .portfolio-hero-section .video-wrapper {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-top: 2.5rem;
+    margin-left: 0.1rem;
+    align-self: center;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 500px;             
+    padding-top: 0;          
+    height: auto;
+    box-shadow: 0 4px 5px 7px rgba(0, 0, 0, 0.08), 0 2px 3px 5px rgba(0, 0, 0, 0.04);
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideInFromLeft 0.8s ease-out forwards;
+    animation-delay: 0.2s;            
+  }
+  .portfolio-hero-section .video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block; 
+  }
+  .portfolio-hero-section .portfolio-hero-content > h1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 0;               
+    font-size: 2.5rem;
+    line-height: 1.2;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideInFromRight 0.8s ease-out forwards;
+    animation-delay: 0.2s;
+  }
+  
+  .portfolio-hero-section .text-content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 25px;
+    padding: 2rem;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideInFromRight 0.8s ease-out forwards;
+    animation-delay: 0.2s;
+  }
+   .portfolio-hero-section .cta-button {
+    margin-top: 1.5rem;
+
+     @keyframes slideInFromLeft {
+      from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+      to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+   @keyframes slideInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    }
+  }
+}
+@media (min-width: 992px) {
+  .portfolio-hero-section {
+     padding-top: 10px;
+  }
+.portfolio-hero-container {
+ display: flex;
+    flex-direction: row;
+    align-items: center;          
+    justify-content: center;      
+    gap: 3rem;                    
+    max-width: 1200px;            
+    margin: 0 auto;               
+    box-sizing: border-box;
+    padding: 0 1rem;              
+  }
+  .portfolio-hero-container .video-wrapper {
+     order: 1;
+    flex: 0 0 480px;              
+    max-width: 480px;
+    position: relative;
+    padding-top: 56.25%;          
+    overflow: hidden;
+    border-radius: 8px;
+  } 
+   .portfolio-hero-container .video-wrapper iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .portfolio-hero-container .hero-title {
+    order: 2;
+    flex: 1 1 400px;              
+    max-width: 400px;
+  }
+  .portfolio-hero-container .hero-title h1 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  .portfolio-hero-container .text-content {
+    order: 3;
+    flex: 1 1 400px;
+    max-width: 400px;
+    text-align: justify;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    margin-top: 0;                
+  }
+   .portfolio-hero-container .text-content .cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio-hero-section .video-wrapper {
+    padding-top: 0;       
+    height: 200px;        
+    max-width: 100%;      
+    margin-top: 0;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideInFromLeft 0.8s ease-out forwards;   
+  }
+   .portfolio-hero-section .video-wrapper iframe {
+    position: static; 
+    width: 100%;
+    height: 100%;
+  }
+  .portfolio-hero-section .portfolio-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem 3rem;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    max-width: 480px;
+}
+ .portfolio-hero-section .portfolio-hero-content > h1 {
+  margin: 0; 
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideInFromRight 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+  text-align: center;
+  }
+ .portfolio-hero-section .text-content {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideInFromRight 0.8s ease-out forwards;
+  animation-delay: 0.3s;              
+}
+.portfolio-hero-section .text-content p {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
