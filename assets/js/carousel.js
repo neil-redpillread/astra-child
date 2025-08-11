@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
     slidesPerView: 'auto',
     spaceBetween: 24,
     breakpoints: {
-      768: { slidesPerView: 1 },
-      1024:{ slidesPerView: 2 }
+      768: { slidesPerView: 1, spaceBetween: 28 },
+      1024:{ slidesPerView: 2, spaceBetween: 40 }
     }
   });
 });
