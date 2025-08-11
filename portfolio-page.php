@@ -22,7 +22,7 @@ get_header(); ?>
     <div class="swiper-wrapper">
       <!-- slide 1 -->
       <div class="swiper-slide case-study-card">
-        <h3>Challenge</h3>
+        <h3>Digitial Strategy Consultants</h3>
         <p>Increase form submissions by 53% in 3 months.</p>
         <h4>Approach</h4>
         <ul>
@@ -34,7 +34,40 @@ get_header(); ?>
       </div>
       <!-- slide 2 -->
       <div class="swiper-slide case-study-card">
-        <h3>Challenge</h3>
+        <h3>AI Strategy Consultants</h3>
+        <p>Boost organic traffic by 150%.</p>
+        <h4>Approach</h4>
+        <ul>
+          <li>Technical audit</li>
+          <li>Content gap analysis</li>
+          <li>Link-building</li>
+        </ul>
+        <a href="#">View Case Study →</a>
+      </div>
+      <div class="swiper-slide case-study-card">
+        <h3>Technology Advice</h3>
+        <p>Boost organic traffic by 150%.</p>
+        <h4>Approach</h4>
+        <ul>
+          <li>Technical audit</li>
+          <li>Content gap analysis</li>
+          <li>Link-building</li>
+        </ul>
+        <a href="#">View Case Study →</a>
+      </div>
+      <div class="swiper-slide case-study-card">
+        <h3>Acodez IT Solutions</h3>
+        <p>Boost organic traffic by 150%.</p>
+        <h4>Approach</h4>
+        <ul>
+          <li>Technical audit</li>
+          <li>Content gap analysis</li>
+          <li>Link-building</li>
+        </ul>
+        <a href="#">View Case Study →</a>
+      </div>
+      <div class="swiper-slide case-study-card">
+        <h3>Acowebs</h3>
         <p>Boost organic traffic by 150%.</p>
         <h4>Approach</h4>
         <ul>

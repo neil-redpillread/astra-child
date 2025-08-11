@@ -715,6 +715,32 @@ body.home
 body.page-template-portfolio-page .portfolio-clients-carousel {
   margin-top: 5rem;   
 }
+body.page-template-portfolio-page .swiper.portfolio-carousel { overflow: hidden; }
+body.page-template-portfolio-page .swiper-wrapper { display: flex; will-change: transform; }
+body.page-template-portfolio-page .swiper-slide   { flex: 0 0 auto; }
+
+body.page-template-portfolio-page .swiper.portfolio-carousel {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+body.page-template-portfolio-page .swiper-slide.case-study-card {
+  box-shadow: 2px -1px 16px 6px rgba(0, 0, 0, 0.05);
+  background: #fff;           
+  border-radius: 12px;        
+  padding: 24px;
+  min-height: 360px;              
+}
+@media (min-width: 768px) {
+  body.page-template-portfolio-page .swiper-slide.case-study-card {
+    min-height: 400px;
+  }
+  }
+  @media (min-width: 1024px) {
+  body.page-template-portfolio-page .swiper-slide.case-study-card {
+    min-height: 440px;
+  }
+}
+
 @keyframes slideInFromLeft {
   from {
     opacity: 0;
