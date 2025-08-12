@@ -738,6 +738,38 @@ body.page-template-portfolio-page .portfolio-clients-carousel{
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
 }
+body.page-template-portfolio-page .swiper.portfolio-carousel { position: relative; overflow: visible; }
+body.page-template-portfolio-page .swiper-button-prev,
+body.page-template-portfolio-page .swiper-button-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;                 /* circle */
+  background: #8d8a8a;                   /* grey circle */
+  color: #e9e1e1;                            /* chevron color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  box-shadow: 0 6px 14px rgba(0,0,0,.12); /* subtle shadow */
+}
+body.page-template-portfolio-page .swiper-button-prev{ left: clamp(16px, 4vw, 48px); }
+body.page-template-portfolio-page .swiper-button-next{ right: clamp(16px, 4vw, 48px); }
+
+body.page-template-portfolio-page .swiper-button-prev::after,
+body.page-template-portfolio-page .swiper-button-next::after{
+  font-size: 20px;   
+}
+body.page-template-portfolio-page .swiper-button-prev:hover,
+body.page-template-portfolio-page .swiper-button-next:hover,
+body.page-template-portfolio-page .swiper-button-prev:focus-visible,
+body.page-template-portfolio-page .swiper-button-next:focus-visible{
+  background: #8f9aa2;
+  outline: none;
+}
+body.page-template-portfolio-page .swiper-button-lock{ display: flex !important; }
 
 @media (min-width: 768px) {
   body.page-template-portfolio-page .swiper-slide.case-study-card {
