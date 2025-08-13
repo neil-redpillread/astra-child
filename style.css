@@ -828,6 +828,68 @@ body.page-template-portfolio-page .strategy-tags a:active{
   transform: translateY(1px);
 }
 
+body.page-template-portfolio-page .btn-case-study{
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .6rem 1rem;
+  border-radius: 10px;
+  background: #ff0000;                 /* primary blue */
+  color: #fff;
+  border: 1px solid #b0b0b0;
+  text-decoration: none;
+  font-weight: normal;
+  box-shadow: 0 6px 14px rgba(37,99,235,.25);
+  transition: background .2s, border-color .2s, transform .15s, box-shadow .2s;
+}
+body.page-template-portfolio-page .btn-case-study:hover{
+  background: #cd1313; border-color: #878787; transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(44, 44, 45, 0.35);
+}
+body.page-template-portfolio-page .btn-case-study:active{
+  transform: translateY(0); box-shadow: 0 6px 12px rgba(26, 26, 26, 0.25);
+}
+body.page-template-portfolio-page .btn-case-study:focus-visible{
+  outline: none;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 5px #cd1313;   /* accessible focus ring */
+}
+body.page-template-portfolio-page .swiper-slide.case-study-card{
+  display: flex;
+  flex-direction: column;
+  position: relative;  
+}
+body.page-template-portfolio-page .btn-case-study{
+  display: inline-flex;           /* intrinsic width */
+  align-self: center;         /* ignore any stretch */
+  width: auto;                    /* override any 100% from theme */
+  margin-top: auto;               /* pushes it to the bottom of the card */
+}
+body.page-template-portfolio-page .case-logo{
+  top: 18px;
+  right: 18px;
+  width: 200px;                      /* tweak to taste */
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;              /* remove if you want it clickable */
+}
+body.page-template-portfolio-page .case-header{
+  display: flex;
+  align-items: center;            /* vertical alignment */
+  justify-content: space-between; /* logo to the right edge */
+  gap: 12px;
+  margin-bottom: .5rem;           /* space under the row */
+}
+body.page-template-portfolio-page .case-header .case-title{
+  margin: 0;                      /* remove default h3 margin */
+}
+body.page-template-portfolio-page .case-header .case-logo{
+  width: 150px; height: auto; object-fit: contain;
+}
+
+@media (max-width: 767px){
+  body.page-template-portfolio-page .swiper-slide.case-study-card{ padding-right: 100px; }
+  body.page-template-portfolio-page .case-logo{ width: 90px; top: 14px; right: 14px; }
+}
 
 @media (min-width: 768px) {
   body.page-template-portfolio-page .swiper-slide.case-study-card {
@@ -836,7 +898,7 @@ body.page-template-portfolio-page .strategy-tags a:active{
   }
   @media (min-width: 1024px) {
   body.page-template-portfolio-page .swiper-slide.case-study-card {
-    min-height: 440px;
+    min-height: 380px;
   }
 }
 

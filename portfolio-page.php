@@ -26,7 +26,13 @@ get_header(); ?>
     <div class="swiper-wrapper">
       <!-- slide 1 -->
       <div class="swiper-slide case-study-card">
-        <h3>Digitial Strategy Consultants</h3>
+        <div class="case-header">
+  <h3 class="case-title">Digital Strategy Consultants</h3>
+  <img
+  class="case-logo"
+    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/Images/Logos/digital-strategy_logo.svg' ); ?>"
+    alt="Digital Strategy logo" width="120" height="48" loading="lazy" decoding="async">
+</div>
         <p> A digital marketing agency in Dublin</p>
         <h4>Objective</h4>
         <p> Increase online visibility and organic ranking </p>
@@ -39,7 +45,9 @@ get_header(); ?>
   </ul>
 </div>
         <h3> Result: 600% increase in page view </h3>
-        <a href="#">View Case Study →</a>
+        <a class="btn-case-study" href="/case-studies/acmecase">
+  View Case Study
+</a>
       </div>
       <!-- slide 2 -->
       <div class="swiper-slide case-study-card">
