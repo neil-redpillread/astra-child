@@ -33,7 +33,7 @@ get_header(); ?>
     src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/Images/Logos/digital-strategy_logo.svg' ); ?>"
     alt="Digital Strategy logo" width="120" height="48" loading="lazy" decoding="async">
 </div>
-        <p> A digital marketing agency in Dublin</p>
+        <p> Digital Strategy Consultants, founded in 2012, is a digital marketing agency and consultancy based in Dublin, a global hub for digital marketing excellence.</p>
         <h4>Objective</h4>
         <p> Increase online visibility and organic ranking </p>
         <div class="strategy-row">
@@ -42,13 +42,16 @@ get_header(); ?>
     <li><a href="/services/digital-pr/">Digital PR</a></li>
     <li><a href="/services/keyword-research/">Keyword research</a></li>
     <li><a href="/services/link-building/">Link-building</a></li>
+    <li><a href="/services/website-audit/">website audit</a></li>
+    <li><a href="/services/Google-ads/">Google ads</a></li>
+    <li><a href="/services/Google-ads/">black hat SEO</a></li>
   </ul>
 </div>
         <h3> Result: 600% increase in page view </h3>
-        <a class="btn-case-study" href="/case-studies/acmecase">
-  View Case Study
-</a>
-      </div>
+      <div class="case-footer">
+  <a class="btn-case-study" href="/case-studies/acmecase">View Case Study</a>
+</div>
+</div>
       <!-- slide 2 -->
       <div class="swiper-slide case-study-card">
         <h3>AI Strategy Consultants</h3>

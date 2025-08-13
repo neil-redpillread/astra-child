@@ -858,6 +858,12 @@ body.page-template-portfolio-page .swiper-slide.case-study-card{
   flex-direction: column;
   position: relative;  
 }
+body.page-template-portfolio-page .case-footer{
+  margin-top: auto;          /* pushes footer to the bottom */
+  padding-top: 1rem;         /* <-- GAP between H3 and button; tweak */
+  display: flex;
+  justify-content: center;   /* center the button horizontally */
+}
 body.page-template-portfolio-page .btn-case-study{
   display: inline-flex;           /* intrinsic width */
   align-self: center;         /* ignore any stretch */
@@ -904,7 +910,7 @@ body.page-template-portfolio-page .case-header{
   }
   @media (min-width: 1024px) {
   body.page-template-portfolio-page .swiper-slide.case-study-card {
-    min-height: 380px;
+    min-height: 440px;
   }
 }
 
