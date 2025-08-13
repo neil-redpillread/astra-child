@@ -720,7 +720,7 @@ body.page-template-portfolio-page .swiper-wrapper { display: flex; will-change: 
 body.page-template-portfolio-page .swiper-slide   { flex: 0 0 auto; }
 
 body.page-template-portfolio-page .swiper.portfolio-carousel {
-  padding-top: 4rem;
+  padding-top: 0.05rem;
   padding-bottom: 4rem;
 }
 body.page-template-portfolio-page .swiper-slide.case-study-card {
@@ -770,6 +770,18 @@ body.page-template-portfolio-page .swiper-button-next:focus-visible{
   outline: none;
 }
 body.page-template-portfolio-page .swiper-button-lock{ display: flex !important; }
+
+body.page-template-portfolio-page .portfolio-carousel-title{
+  margin: 0 auto 2rem;
+  font-size: clamp(2rem, 1.2rem + 2.5vw, 3rem);
+  line-height: 1.2;
+  /* match the carousel’s inner gutter if you set one */
+  padding-left: var(--carousel-gutter, 32px);
+  padding-right: var(--carousel-gutter, 32px);
+  padding-top: 4rem;
+  text-align: center;
+  font-weight: 700;
+}
 
 @media (min-width: 768px) {
   body.page-template-portfolio-page .swiper-slide.case-study-card {

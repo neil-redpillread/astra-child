@@ -17,6 +17,10 @@ get_header(); ?>
       </div>
     </div>
   </section>
+  <section class="portfolio-clients-carousel" aria-labelledby="carousel-title">
+  <h2 id="carousel-title" class="portfolio-carousel-title">
+    <?php echo esc_html__( 'Satisfied Clients. Proven Results.', 'astra-child' ); ?>
+  </h2>
   <section class="portfolio-clients-carousel">
   <div class="swiper portfolio-carousel">
     <div class="swiper-wrapper">
