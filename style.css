@@ -783,6 +783,52 @@ body.page-template-portfolio-page .portfolio-carousel-title{
   font-weight: 700;
 }
 
+body.page-template-portfolio-page .strategy-row{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin: .5rem 0 1.25rem;
+}
+body.page-template-portfolio-page .strategy-heading{
+  margin: 0;
+  font-size: 1.5rem;   /* match your design */
+  line-height: 1.2;
+}
+body.page-template-portfolio-page .strategy-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body.page-template-portfolio-page .strategy-tags a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .25rem .6rem;
+  min-height: 28px;
+  border: 1px solid #e5e7eb;
+  background: #f4f6f8;
+  color: #1f2937;
+  border-radius: 8px;       /* square-ish; increase for pills */
+  font-size: .9rem;
+  text-decoration: none;
+  transition: background .2s, border-color .2s, transform .15s;
+}
+body.page-template-portfolio-page .strategy-tags a:hover{
+  background: #e9eef3; border-color: #d1d5db;
+}
+body.page-template-portfolio-page .strategy-tags a:focus-visible{
+  outline: none;
+  box-shadow: 0 0 0 3px #585757, 0 0 0 5px #2563eb; /* accessible focus */
+}
+body.page-template-portfolio-page .strategy-tags a:active{
+  transform: translateY(1px);
+}
+
+
 @media (min-width: 768px) {
   body.page-template-portfolio-page .swiper-slide.case-study-card {
     min-height: 400px;

@@ -27,13 +27,18 @@ get_header(); ?>
       <!-- slide 1 -->
       <div class="swiper-slide case-study-card">
         <h3>Digitial Strategy Consultants</h3>
-        <p>Increase form submissions by 53% in 3 months.</p>
-        <h4>Approach</h4>
-        <ul>
-          <li>PPC reallocation</li>
-          <li>On-page SEO</li>
-          <li>UX improvements</li>
-        </ul>
+        <p> A digital marketing agency in Dublin</p>
+        <h4>Objective</h4>
+        <p> Increase online visibility and organic ranking </p>
+        <div class="strategy-row">
+  <h4 class="strategy-heading">Strategy:</h4>
+  <ul class="strategy-tags">
+    <li><a href="/services/digital-pr/">Digital PR</a></li>
+    <li><a href="/services/keyword-research/">Keyword research</a></li>
+    <li><a href="/services/link-building/">Link-building</a></li>
+  </ul>
+</div>
+        <h3> Result: 600% increase in page view </h3>
         <a href="#">View Case Study →</a>
       </div>
       <!-- slide 2 -->
