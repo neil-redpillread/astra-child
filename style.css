@@ -885,6 +885,12 @@ body.page-template-portfolio-page .case-header .case-title{
 body.page-template-portfolio-page .case-header .case-logo{
   width: 150px; height: auto; object-fit: contain;
 }
+body.page-template-portfolio-page .case-header{
+  display:flex; align-items:baseline; justify-content:space-between;
+  padding-bottom:.5rem;
+  margin-bottom:1rem;
+  border-bottom:1px solid rgba(2,6,23,.08); /* very light keyline */
+}
 
 @media (max-width: 767px){
   body.page-template-portfolio-page .swiper-slide.case-study-card{ padding-right: 100px; }
