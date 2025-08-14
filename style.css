@@ -951,7 +951,7 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
   }
   .portfolio-clients-carousel .swiper.portfolio-carousel{
     overflow: hidden;
-    padding-inline: 12px;
+     padding: 0;
     box-sizing: border-box;
   }
    .portfolio-clients-carousel .swiper-slide{
