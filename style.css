@@ -901,10 +901,24 @@ body.page-template-portfolio-page .case-header{
 @media (max-width: 767.98px){
   body.page-template-portfolio-page .swiper-slide.case-study-card{
     min-height: auto;      /* don't force tall cards on phones */
-    padding: 16px 16px 20px;
-    border-radius: 14px;   /* slightly smaller corner on mobile */
+    padding: 14px 14px 16px;
+    border-radius: 12px;   /* slightly smaller corner on mobile */
   }
-  body.page-template-portfolio-page .case-logo{ width: 90px; top: 14px; right: 14px; }
+body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
+  position: static;        /* reset any absolute/relative positioning */
+    top: auto; right: auto; left: auto; bottom: auto;  /* clear offsets */
+    display: block;
+    margin: 0 auto 6px;      /* center it */
+    width: 150px;             /* or keep 90px if you prefer */
+    height: auto;
+  }
+   .portfolio-clients-carousel .case-header + p{      /* first paragraph after header       */
+    display: none;
+  }
+  .portfolio-clients-carousel h4{                    /* your <h4> Objective / Strategy     */
+    margin: 10px 0 6px;
+  }
+
   body.page-template-portfolio-page .portfolio-clients-carousel{
     width: 100%;
     max-width: 100%;
@@ -928,6 +942,44 @@ body.page-template-portfolio-page .case-header{
   > .swiper-button-next{
     display: none !important;
   }
+  .portfolio-clients-carousel .swiper.portfolio-carousel{
+     padding-left: 12px;
+    padding-right: 12px;
+  }
+   .portfolio-clients-carousel .swiper.portfolio-carousel .swiper-slide{
+    width: calc(100% - 24px) !important; /* 100% minus the side padding above */
+  }
+  body.page-template-portfolio-page .swiper-slide.case-study-card{
+    min-height: auto;
+    padding: 14px 14px 16px;
+    border-radius: 12px;
+  }
+ .portfolio-clients-carousel .case-title{          /* "Digital Strategy Consultants" */
+    display: none;                                   /* removes from visual flow on phones */
+  }
+  
+   .portfolio-clients-carousel .case-header{
+     display: block;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+
+  .strategy-heading{ margin: 10px 0 6px; }
+  .strategy-tags{ gap: 6px; }
+  .strategy-tags a{ font-size: 13px; padding: 6px 10px; }
+
+   .swiper-slide.case-study-card h3:not(.case-title){
+    font-size: 22px;
+    margin-top: 16px;
+  }
+
+  .btn-case-study{
+    padding: 10px 14px;
+    font-size: 14px;
+    margin: 10px auto 6px; /* centers + keeps some bottom space */
+  }
+
 }
 
 @media (min-width: 768px) {
