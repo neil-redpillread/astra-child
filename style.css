@@ -964,6 +964,7 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
   }
   .portfolio-clients-carousel .swiper.portfolio-carousel .swiper-slide{
     width: auto; /* let Swiper compute it */
+    margin: 12px 0;
   }
   body.page-template-portfolio-page .swiper-slide.case-study-card{
     min-height: auto;
