@@ -904,6 +904,13 @@ body.page-template-portfolio-page .case-header{
     padding: 14px 14px 16px;
     border-radius: 12px;   /* slightly smaller corner on mobile */
   }
+  .portfolio-clients-carousel{
+     width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden; /* no page scroll */
+  }
 body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
   position: static;        /* reset any absolute/relative positioning */
     top: auto; right: auto; left: auto; bottom: auto;  /* clear offsets */
@@ -943,11 +950,20 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
     display: none !important;
   }
   .portfolio-clients-carousel .swiper.portfolio-carousel{
-     padding-left: 12px;
-    padding-right: 12px;
+    overflow: hidden;
+    padding-inline: 12px;
+    box-sizing: border-box;
   }
-   .portfolio-clients-carousel .swiper.portfolio-carousel .swiper-slide{
-    width: calc(100% - 24px) !important; /* 100% minus the side padding above */
+   .portfolio-clients-carousel .swiper-slide{
+     display: flex;                /* so we can center the card */
+  }
+  .portfolio-clients-carousel .case-study-card{
+     width: 100%;
+    max-width: 65vw;              /* 92% of viewport; tweak (e.g., 90vw, 360px, etc.) */
+    margin-inline: auto;          /* center the card within the slide */
+  }
+  .portfolio-clients-carousel .swiper.portfolio-carousel .swiper-slide{
+    width: auto; /* let Swiper compute it */
   }
   body.page-template-portfolio-page .swiper-slide.case-study-card{
     min-height: auto;
