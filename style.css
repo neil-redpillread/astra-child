@@ -909,7 +909,7 @@ body.page-template-portfolio-page .case-header{
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
-    overflow-x: hidden; /* no page scroll */
+    overflow-x: hidden !important;
   }
 body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
   position: static;        /* reset any absolute/relative positioning */
@@ -955,12 +955,13 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
     box-sizing: border-box;
   }
    .portfolio-clients-carousel .swiper-slide{
-     display: flex;                /* so we can center the card */
+     display: flex;
+     justify-content: center;                /* so we can center the card */
   }
   .portfolio-clients-carousel .case-study-card{
      width: 100%;
-    max-width: 65vw;              /* 92% of viewport; tweak (e.g., 90vw, 360px, etc.) */
-    margin-inline: auto;          /* center the card within the slide */
+    max-width: 70vw;              /* 92% of viewport; tweak (e.g., 90vw, 360px, etc.) */
+    margin: 0 auto;          /* center the card within the slide */
   }
   .portfolio-clients-carousel .swiper.portfolio-carousel .swiper-slide{
     width: auto; /* let Swiper compute it */
