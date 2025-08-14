@@ -30,7 +30,7 @@ get_header(); ?>
   <h3 class="case-title">Digital Strategy Consultants</h3>
   <img
   class="case-logo"
-    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/Images/Logos/digital-strategy_logo.svg' ); ?>"
+    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/logos/digital-strategy_logo.svg' ); ?>"
     alt="Digital Strategy logo" width="120" height="48" loading="lazy" decoding="async">
 </div>
         <p> Digital Strategy Consultants, founded in 2012, is a digital marketing agency and consultancy based in Dublin, a global hub for digital marketing excellence.</p>
@@ -58,7 +58,7 @@ get_header(); ?>
   <h3 class="case-title">Acowebs</h3>
   <img
   class="case-logo"
-    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/Images/Logos/digital-strategy_logo.svg' ); ?>"
+    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/logos/digital-strategy_logo.svg' ); ?>"
     alt="Digital Strategy logo" width="120" height="48" loading="lazy" decoding="async">
 </div>
         <p> Digital Strategy Consultants, founded in 2012, is a digital marketing agency and consultancy based in Dublin, a global hub for digital marketing excellence.</p>
@@ -86,7 +86,7 @@ get_header(); ?>
   <h3 class="case-title">Acodez IT Solutions</h3>
   <img
   class="case-logo"
-    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/Images/Logos/digital-strategy_logo.svg' ); ?>"
+    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/logos/digital-strategy_logo.svg' ); ?>"
     alt="Digital Strategy logo" width="120" height="48" loading="lazy" decoding="async">
 </div>
         <p> Digital Strategy Consultants, founded in 2012, is a digital marketing agency and consultancy based in Dublin, a global hub for digital marketing excellence.</p>
@@ -114,7 +114,7 @@ get_header(); ?>
   <h3 class="case-title">TechnologyAdvice</h3>
   <img
   class="case-logo"
-    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/Images/Logos/digital-strategy_logo.svg' ); ?>"
+    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/logos/digital-strategy_logo.svg' ); ?>"
     alt="Digital Strategy logo" width="120" height="48" loading="lazy" decoding="async">
 </div>
         <p> Digital Strategy Consultants, founded in 2012, is a digital marketing agency and consultancy based in Dublin, a global hub for digital marketing excellence.</p>
@@ -142,7 +142,7 @@ get_header(); ?>
   <h3 class="case-title">AI Strategy Consultants</h3>
   <img
   class="case-logo"
-    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/Images/Logos/digital-strategy_logo.svg' ); ?>"
+    src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/logos/digital-strategy_logo.svg' ); ?>"
     alt="Digital Strategy logo" width="120" height="48" loading="lazy" decoding="async">
 </div>
         <p> Digital Strategy Consultants, founded in 2012, is a digital marketing agency and consultancy based in Dublin, a global hub for digital marketing excellence.</p>

@@ -13,16 +13,27 @@ function astra_child_enqueue_styles() {
     );
 }
 add_action('wp_enqueue_scripts', function () {
-  // limit to the portfolio page/template
-  if ( ! is_page('portfolio') && ! is_page_template('portfolio-page.php') ) return;
+  if ( ! is_page_template('portfolio-page.php') ) return;
 
-  wp_enqueue_style('swiper-bundle','https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css',[], '11');
-  wp_enqueue_script('swiper-bundle','https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js',[], '11', true);
+  // Swiper CSS + JS
+  wp_enqueue_style(
+    'swiper-bundle',
+    'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css',
+    [], null
+  );
+  wp_enqueue_script(
+    'swiper-bundle',
+    'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js',
+    [], null, true
+  );
 
-  // your JS (matches your screenshot)
-  $js_path = get_stylesheet_directory() . '/assets/js/carousel.js';
-  $js_uri  = get_stylesheet_directory_uri() . '/assets/js/carousel.js';
-  $ver     = file_exists($js_path) ? filemtime($js_path) : null;
-
-  wp_enqueue_script('portfolio-carousel', $js_uri, ['swiper-bundle'], $ver, true);
+  // Your carousel.js
+  $js_file = get_stylesheet_directory() . '/assets/js/carousel.js';
+  wp_enqueue_script(
+    'portfolio-carousel',
+    get_stylesheet_directory_uri() . '/assets/js/carousel.js',
+    ['swiper-bundle'],
+    file_exists($js_file) ? filemtime($js_file) : null,
+    true
+  );
 });
