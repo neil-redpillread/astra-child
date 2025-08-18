@@ -171,4 +171,69 @@ get_header(); ?>
     <div class="swiper-button-next"></div>
   </div>
 </section>
+<section class="skills-carousel-section">
+  <h2 class="skills-section-title">Skills & Tools</h2>
+  <div class="swiper skills-carousel">
+    <div class="swiper-wrapper">
+      
+      <!-- Slide 1: SEO -->
+      <div class="swiper-slide skills-slide">
+        <div class="skills-card">
+          <h3>SEO</h3>
+          <div class="skills-columns">
+            <div class="skills-col">
+              <h4>Skills</h4>
+              <div class="skill-bar"><span>Off-page</span><div class="bar"><div style="width: 90%;"></div></div></div>
+              <div class="skill-bar"><span>On-page</span><div class="bar"><div style="width: 80%;"></div></div></div>
+              <div class="skill-bar"><span>Technical</span><div class="bar"><div style="width: 60%;"></div></div></div>
+            </div>
+            <div class="skills-col">
+              <h4>Tools</h4>
+              <div class="skill-bar"><span>Ahrefs</span><div class="bar"><div style="width: 80%;"></div></div></div>
+              <div class="skill-bar"><span>Screaming Frog</span><div class="bar"><div style="width: 60%;"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide skills-slide">
+        <div class="skills-card">
+          <h3>Search Engine Marketing</h3>
+          <div class="skills-columns">
+            <div class="skills-col">
+              <h4>Skills</h4>
+              <div class="skill-bar"><span>Off-page</span><div class="bar"><div style="width: 90%;"></div></div></div>
+              <div class="skill-bar"><span>On-page</span><div class="bar"><div style="width: 80%;"></div></div></div>
+              <div class="skill-bar"><span>Technical</span><div class="bar"><div style="width: 60%;"></div></div></div>
+            </div>
+            <div class="skills-col">
+              <h4>Tools</h4>
+              <div class="skill-bar"><span>Ahrefs</span><div class="bar"><div style="width: 80%;"></div></div></div>
+              <div class="skill-bar"><span>Screaming Frog</span><div class="bar"><div style="width: 60%;"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="swiper-slide skills-slide">
+        <div class="skills-card">
+          <h3>Social Media Marketing</h3>
+          <div class="skills-columns">
+            <div class="skills-col">
+              <h4>Skills</h4>
+              <div class="skill-bar"><span>Off-page</span><div class="bar"><div style="width: 90%;"></div></div></div>
+              <div class="skill-bar"><span>On-page</span><div class="bar"><div style="width: 80%;"></div></div></div>
+              <div class="skill-bar"><span>Technical</span><div class="bar"><div style="width: 60%;"></div></div></div>
+            </div>
+            <div class="skills-col">
+              <h4>Tools</h4>
+              <div class="skill-bar"><span>Ahrefs</span><div class="bar"><div style="width: 80%;"></div></div></div>
+              <div class="skill-bar"><span>Screaming Frog</span><div class="bar"><div style="width: 60%;"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat for SEM, SMM, Web Dev, etc. -->
+    </div>
+  </div>
+</section>
 <?php get_footer(); ?>

@@ -15,4 +15,38 @@ document.addEventListener('DOMContentLoaded', function() {
     watchOverflow: false
   });
 });
+document.addEventListener('DOMContentLoaded', function () {
+  new Swiper('.skills-carousel', {
+    slidesPerView: 1,
+    centeredSlides: true,
+    spaceBetween: 32,
+    loop: true,
+    watchOverflow: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    }
+  });
+
+  // Pop-up effect on scroll
+  const skillCards = document.querySelectorAll('.skills-card');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+
+        // Animate bars when visible
+        const bars = entry.target.querySelectorAll('.bar div');
+        bars.forEach(bar => {
+          const width = bar.style.width;
+          bar.style.width = 0;
+          setTimeout(() => { bar.style.width = width }, 100);
+        });
+      }
+    });
+  }, { threshold: 0.4 });
+
+  skillCards.forEach(card => observer.observe(card));
+});
 
