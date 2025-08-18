@@ -22,6 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
     spaceBetween: 32,
     loop: true,
     watchOverflow: true,
+    navigation: {
+    nextEl: '.skills-carousel .swiper-button-next',
+    prevEl: '.skills-carousel .swiper-button-prev',
+  },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,

@@ -234,6 +234,8 @@ get_header(); ?>
 
       <!-- Repeat for SEM, SMM, Web Dev, etc. -->
     </div>
+    <div class="swiper-button-prev skills-nav"></div>
+    <div class="swiper-button-next skills-nav"></div>
   </div>
 </section>
 <?php get_footer(); ?>
