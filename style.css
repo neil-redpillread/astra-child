@@ -1075,6 +1075,9 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
   flex-wrap: wrap;
   text-align: left;
 }
+.skills-columns > .skills-col > h4 {
+  margin-block-end: 1rem;   /* try .75rem–1.25rem to taste */
+}
 .skills-col {
   flex: 1;
   min-width: 250px;
