@@ -1045,6 +1045,10 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
   justify-content: center;
   align-items: center;
 }
+ .skills-carousel { 
+  overflow: visible !important;     /* stop clipping */
+}
+
 .skills-card {
   width: 100%;
   max-width: 1000px;
@@ -1052,7 +1056,7 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
   background: white;
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  box-shadow: 1px 1px 25px 7px rgba(0, 0, 0, 0.07);
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.6s ease, transform 0.6s ease;
