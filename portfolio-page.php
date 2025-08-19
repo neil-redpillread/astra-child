@@ -173,65 +173,108 @@ get_header(); ?>
 </section>
 <section class="skills-carousel-section">
   <h2 class="skills-section-title">Skills and Tools</h2>
+
   <div class="swiper skills-carousel">
     <div class="swiper-wrapper">
-      
+
       <!-- Slide 1: SEO -->
       <div class="swiper-slide skills-slide">
         <div class="skills-card">
           <h3>SEO</h3>
+
           <div class="skills-columns">
+            <!-- LEFT column -->
             <div class="skills-col">
               <h4>Skills</h4>
-              <div class="skill-bar"><span>Off-page</span><div class="bar"><div style="width: 90%;"></div></div></div>
-              <div class="skill-bar"><span>On-page</span><div class="bar"><div style="width: 80%;"></div></div></div>
-              <div class="skill-bar"><span>Technical</span><div class="bar"><div style="width: 60%;"></div></div></div>
+
+              <div class="skill-bar" data-pct="40">
+                <span class="label">Off-page</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
+
+              <div class="skill-bar" data-pct="75">
+                <span class="label">On-page</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
+
+              <div class="skill-bar" data-pct="60">
+                <span class="label">Technical</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
             </div>
+            <!-- RIGHT column -->
             <div class="skills-col">
               <h4>Tools</h4>
-              <div class="skill-bar"><span>Ahrefs</span><div class="bar"><div style="width: 80%;"></div></div></div>
-              <div class="skill-bar"><span>Screaming Frog</span><div class="bar"><div style="width: 60%;"></div></div></div>
+
+              <div class="skill-bar" data-pct="70">
+                <span class="label">Ahrefs</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
+
+              <div class="skill-bar" data-pct="80">
+                <span class="label">Screaming Frog</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </div><!-- /.skills-columns -->
+        </div><!-- /.skills-card -->
+      </div><!-- /.swiper-slide -->
+             
+       <!-- Slide 2: Search Engine Marketing -->
       <div class="swiper-slide skills-slide">
         <div class="skills-card">
           <h3>Search Engine Marketing</h3>
-          <div class="skills-columns">
-            <div class="skills-col">
-              <h4>Skills</h4>
-              <div class="skill-bar"><span>Off-page</span><div class="bar"><div style="width: 90%;"></div></div></div>
-              <div class="skill-bar"><span>On-page</span><div class="bar"><div style="width: 80%;"></div></div></div>
-              <div class="skill-bar"><span>Technical</span><div class="bar"><div style="width: 60%;"></div></div></div>
-            </div>
-            <div class="skills-col">
-              <h4>Tools</h4>
-              <div class="skill-bar"><span>Ahrefs</span><div class="bar"><div style="width: 80%;"></div></div></div>
-              <div class="skill-bar"><span>Screaming Frog</span><div class="bar"><div style="width: 60%;"></div></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div class="swiper-slide skills-slide">
-        <div class="skills-card">
-          <h3>Social Media Marketing</h3>
-          <div class="skills-columns">
-            <div class="skills-col">
-              <h4>Skills</h4>
-              <div class="skill-bar"><span>Off-page</span><div class="bar"><div style="width: 90%;"></div></div></div>
-              <div class="skill-bar"><span>On-page</span><div class="bar"><div style="width: 80%;"></div></div></div>
-              <div class="skill-bar"><span>Technical</span><div class="bar"><div style="width: 60%;"></div></div></div>
-            </div>
-            <div class="skills-col">
-              <h4>Tools</h4>
-              <div class="skill-bar"><span>Ahrefs</span><div class="bar"><div style="width: 80%;"></div></div></div>
-              <div class="skill-bar"><span>Screaming Frog</span><div class="bar"><div style="width: 60%;"></div></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
 
+          <div class="skills-columns">
+            <div class="skills-col">
+              <h4>Skills</h4>
+
+              <div class="skill-bar" data-pct="90">
+                <span class="label">Campaign setup</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
+
+              <div class="skill-bar" data-pct="90">
+                <span class="label">Optimization</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
+
+              <div class="skill-bar" data-pct="80">
+                <span class="label">Reporting</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
+            </div>
+            <div class="skills-col">
+              <h4>Tools</h4>
+              <div class="skill-bar" data-pct="80">
+                <span class="label">Google Ads</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
+
+              <div class="skill-bar" data-pct="80">
+                <span class="label">GA4</span>
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+              </div>
+            </div>
+          </div><!-- /.skills-columns -->
+        </div><!-- /.skills-card -->
+      </div><!-- /.swiper-slide -->
+
+    </div><!-- /.swiper-wrapper -->
+
+    <div class="swiper-button-prev skills-nav"></div>
+    <div class="swiper-button-next skills-nav"></div>
+  </div><!-- /.swiper -->
       <!-- Repeat for SEM, SMM, Web Dev, etc. -->
     </div>
     <div class="swiper-button-prev skills-nav"></div>

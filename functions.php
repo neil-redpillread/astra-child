@@ -37,3 +37,12 @@ add_action('wp_enqueue_scripts', function () {
     true
   );
 });
+add_action('wp_enqueue_scripts', function () {
+  wp_enqueue_script(
+    'skills-bars',
+    get_stylesheet_directory_uri() . '/assets/js/skills-bars.js',
+    [],
+    null,
+    true
+  );
+});

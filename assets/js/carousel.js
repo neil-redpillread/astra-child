@@ -53,4 +53,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   skillCards.forEach(card => observer.observe(card));
 });
-
+(function () {
+  var bars = document.querySelectorAll('.skill-bar');
+  if (!bars.length) return;
+  bars.forEach(function (bar) {
+    var pct = parseInt(bar.getAttribute('data-pct') || '0', 10);
+    var fill = bar.querySelector('.fill');
+    var out  = bar.querySelector('.pct');
+    if (fill) fill.style.width = pct + '%';
+    if (out && !out.textContent.trim()) out.textContent = pct + '%';
+  });
+})();
