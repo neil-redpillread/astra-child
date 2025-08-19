@@ -172,7 +172,7 @@ get_header(); ?>
   </div>
 </section>
 <section class="skills-carousel-section">
-  <h2 class="skills-section-title">Skills & Tools</h2>
+  <h2 class="skills-section-title">Skills and Tools</h2>
   <div class="swiper skills-carousel">
     <div class="swiper-wrapper">
       
