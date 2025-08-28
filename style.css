@@ -1109,7 +1109,7 @@ position: relative;
   height: 10px;
   background: #e5e5e5;
   border-radius: 4px;
-  overflow: hidden;
+  overflow: visible;
 }
 .skill-bar .bar div {
   height: 100%;
@@ -1127,6 +1127,7 @@ position: relative;
   font-size: 14px;
   color: #24313f;
   white-space: nowrap;
+  transform: translateX(.5rem);
 }
 
 
