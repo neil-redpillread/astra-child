@@ -187,7 +187,7 @@ get_header(); ?>
             <div class="skills-col">
               <h4>Skills</h4>
 
-              <div class="skill-bar" data-pct="40">
+              <div class="skill-bar" data-pct="60">
                 <span class="label">Off-page</span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
