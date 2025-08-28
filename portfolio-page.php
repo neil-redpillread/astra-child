@@ -210,7 +210,12 @@ get_header(); ?>
               <h4>Tools</h4>
 
               <div class="skill-bar" data-pct="70">
-                <span class="label">Ahrefs</span>
+                 <span class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/ahrefs-logo.webp"
+         alt="" aria-hidden="true">
+                <span class="label-text">Ahrefs</span>
+                </span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
               </div>
