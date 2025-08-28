@@ -213,7 +213,7 @@ get_header(); ?>
                  <span class="label">
                   <img class="label-icon"
          src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/ahrefs-logo.webp"
-         alt="" aria-hidden="true">
+         alt="ahrefs-logo">
                 <span class="label-text">Ahrefs</span>
                 </span>
                 <div class="bar"><div class="fill"></div></div>
@@ -221,7 +221,12 @@ get_header(); ?>
               </div>
 
               <div class="skill-bar" data-pct="80">
+                <span class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/screaming-frog logo.webp"
+         alt="screaming-frog logo">
                 <span class="label">Screaming Frog</span>
+                </span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
               </div>
