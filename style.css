@@ -1151,6 +1151,17 @@ margin-bottom: .25rem;
 } 
 .skill-bar .label-text{ white-space: nowrap; } 
 
+@media (max-width: 768px) {
+  .skills-carousel .swiper-button-prev,
+  .skills-carousel .swiper-button-next,
+  .skills-carousel .skills-nav {
+    display: none !important;
+  }
+  .skills-section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+}
 
 
 

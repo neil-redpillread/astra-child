@@ -18,7 +18,15 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function () {
   new Swiper('.skills-carousel', {
     slidesPerView: 1,
-    centeredSlides: true,
+    slidesPerGroup: 1,
+    speed: 500,
+    threshold: 12,
+    longSwipes: true,
+    longSwipesRatio: 0.6,
+    longSwipesMs: 250,
+    touchRatio: 0.7,
+    resistanceRatio: 0.85,  
+    centeredSlides: false,
     spaceBetween: 32,
     loop: true,
     watchOverflow: true,
