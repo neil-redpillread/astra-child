@@ -1168,7 +1168,7 @@ margin-bottom: .25rem;
     margin-right: 0 !important;  /* kills the gap that shows the next card */
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding-right: 2rem;
   }
    .skills-carousel{
     overflow: hidden;            /* hide the next slide */
