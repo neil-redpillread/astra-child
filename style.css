@@ -1162,7 +1162,24 @@ margin-bottom: .25rem;
     margin-bottom: 2rem;
 }
 }
-
+@media (max-width: 380px) {
+   .skills-carousel .swiper-slide{
+    width: 100% !important;      /* each slide fills the viewport */
+    margin-right: 0 !important;  /* kills the gap that shows the next card */
+    display: flex;
+    justify-content: center;
+  }
+   .skills-carousel{
+    overflow: hidden;            /* hide the next slide */
+  }
+  .skills-card{
+    height: auto;                /* <- change from 500px */
+    max-width: 100%;
+    padding: 14px 16px;          /* comfy inner space */
+    border-radius: 14px;
+    box-sizing: border-box;
+  }
+}
 
 
 
