@@ -298,14 +298,40 @@ get_header(); ?>
       <!-- Certificate Item -->
       <div class="certificate-item">
         <div class="photo-frame">
-          <img src="certificate1.jpg" alt="Certificate 1">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/SEO-crash-course-certificate.webp" alt="SEO-crash-course-certificate">
         </div>
         <div class="certificate-info">
-          <img src="logo1.png" class="course-logo" alt="Course Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/semrush-logo.webp" class="course-logo" alt="semrush-logo">
           <div class="course-name">SEO Crash Course with Brian Dean</div>
         </div>
       </div>
-
+      <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/backlink-managment-course-certificate.webp" alt="backlink-managment-course-certificate">
+        </div>
+        <div class="certificate-info">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/semrush-logo.webp" class="course-logo" alt="semrush-logo">
+          <div class="course-name">Backlink Management Course</div>
+        </div>
+      </div>
+    <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/google-display-ad-certificate.webp" alt="google-display-ad-certificate">
+        </div>
+        <div class="certificate-info">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/google-logo.webp" class="course-logo" alt="google-logo">
+          <div class="course-name">Google Ads Display Certification</div>
+        </div>
+      </div>
+      <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/google-search-ads-certificate.webp" alt="google-display-ad-certificate">
+        </div>
+        <div class="certificate-info">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/google-logo.webp" class="course-logo" alt="google-logo">
+          <div class="course-name">Google Ads Search Certification</div>
+        </div>
+      </div>
       <!-- Add more certificate items similarly -->
     </div>
 
