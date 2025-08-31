@@ -1181,6 +1181,103 @@ margin-bottom: .25rem;
     box-sizing: border-box;
   }
 }
+.certifications-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.certifications-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.certifications-section p {
+  font-size: 1em;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+  gap: 30px;
+}
+
+.certificate-item {
+  min-width: 300px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.photo-frame {
+  border: 12px solid #d4af37; /* Gold-ish frame */
+  padding: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background: #fff;
+}
+
+.photo-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.certificate-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.course-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.course-name {
+  font-size: 0.95em;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+
+.carousel-btn {
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  font-size: 2em;
+  padding: 5px 15px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: background 0.2s;
+}
+
+.carousel-btn:hover {
+  background: #f0f0f0;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.right {
+  margin-left: 10px;
+}
 
 
 

@@ -285,5 +285,31 @@ get_header(); ?>
     <div class="swiper-button-prev skills-nav"></div>
     <div class="swiper-button-next skills-nav"></div>
   </div><!-- /.swiper -->
+  <section class="certifications-section">
+  <h2>Certifications</h2>
+  <p>
+    Staying updated with industry trends is essential. That’s why I continually invest in learning and sharpening my skills. Below is a catalog of certifications I’ve earned along the way.
+  </p>
+
+  <div class="carousel-container">
+    <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#8249;</button>
+    
+    <div class="carousel" id="carousel">
+      <!-- Certificate Item -->
+      <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="certificate1.jpg" alt="Certificate 1">
+        </div>
+        <div class="certificate-info">
+          <img src="logo1.png" class="course-logo" alt="Course Logo">
+          <div class="course-name">SEO Crash Course with Brian Dean</div>
+        </div>
+      </div>
+
+      <!-- Add more certificate items similarly -->
+    </div>
+
+    <button class="carousel-btn right" onclick="scrollCarousel(1)">&#8250;</button>
+  </div>
 </section>
 <?php get_footer(); ?>

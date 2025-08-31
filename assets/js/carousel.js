@@ -72,4 +72,9 @@ document.addEventListener('DOMContentLoaded', function () {
   if (out) out.textContent = pct + '%';
 });
 })();
+function scrollCarousel(direction) {
+  const container = document.getElementById('carousel');
+  const scrollAmount = 320; // Adjust based on card width
+  container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+}
 
