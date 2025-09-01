@@ -199,7 +199,7 @@ get_header(); ?>
                 <span class="pct"></span>
               </div>
 
-              <div class="skill-bar" data-pct="60">
+              <div class="skill-bar" data-pct="55">
                 <span class="label">Technical</span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>

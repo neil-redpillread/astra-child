@@ -16,6 +16,18 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 document.addEventListener('DOMContentLoaded', function () {
+  // 1) INIT widths and % labels from data-pct
+  document.querySelectorAll('.skill-bar').forEach(sb => {
+    const pct  = parseInt(sb.getAttribute('data-pct') || '0', 10);
+    const fill = sb.querySelector('.bar .fill');
+    const out  = sb.querySelector('.pct');
+
+    if (fill) fill.style.width = pct + '%';
+    sb.style.setProperty('--pctDec', (pct / 100).toString());
+    if (out) out.textContent = pct + '%';
+  });
+
+  // 2) Swiper for skills
   new Swiper('.skills-carousel', {
     slidesPerView: 1,
     slidesPerGroup: 1,
@@ -25,37 +37,40 @@ document.addEventListener('DOMContentLoaded', function () {
     longSwipesRatio: 0.6,
     longSwipesMs: 250,
     touchRatio: 0.7,
-    resistanceRatio: 0.85,  
+    resistanceRatio: 0.85,
     centeredSlides: false,
     spaceBetween: 32,
     loop: true,
     watchOverflow: true,
     navigation: {
-    nextEl: '.skills-carousel .swiper-button-next',
-    prevEl: '.skills-carousel .swiper-button-prev',
-  },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    }
+      nextEl: '.skills-carousel .swiper-button-next',
+      prevEl: '.skills-carousel .swiper-button-prev',
+    },
+    pagination: { el: '.swiper-pagination', clickable: true }
   });
 
-  // Pop-up effect on scroll
+  // 3) Animate bars when the card enters viewport
   const skillCards = document.querySelectorAll('.skills-card');
-
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
+      if (!entry.isIntersecting) return;
 
-        // Animate bars when visible
-        const bars = entry.target.querySelectorAll('.bar div');
-        bars.forEach(bar => {
-          const width = bar.style.width;
-          bar.style.width = 0;
-          setTimeout(() => { bar.style.width = width }, 100);
+      entry.target.classList.add('visible');
+
+      // animate only the .fill elements
+      const fills = entry.target.querySelectorAll('.bar .fill');
+      fills.forEach(fill => {
+        const finalWidth = fill.style.width; // e.g. "75%"
+        fill.style.width = '0';
+        // next frame -> animate to target width
+        requestAnimationFrame(() => {
+          fill.style.transition = 'width 600ms ease';
+          fill.style.width = finalWidth;
         });
-      }
+      });
+
+      // (optional) stop observing once animated
+      observer.unobserve(entry.target);
     });
   }, { threshold: 0.4 });
 
