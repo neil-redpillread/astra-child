@@ -332,6 +332,24 @@ get_header(); ?>
           <div class="course-name">Google Ads Search Certification</div>
         </div>
       </div>
+      <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/content-marketing-certificate.webp" alt="content-marketing-certificat">
+        </div>
+        <div class="certificate-info">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/uc_davis_logo.webp" class="course-logo" alt="uc_davis_logo">
+          <div class="course-name">The Strategy of Content Marketing</div>
+        </div>
+      </div>
+      <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/content-marketing-certificate.webp" alt="content-marketing-certificat">
+        </div>
+        <div class="certificate-info">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/uc_davis_logo.webp" class="course-logo" alt="uc_davis_logo">
+          <div class="course-name">The Strategy of Content Marketing</div>
+        </div>
+      </div>
       <!-- Add more certificate items similarly -->
     </div>
 

@@ -1202,27 +1202,24 @@ margin-bottom: .25rem;
 
 .carousel-container {
   position: relative;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
+  overflow: hidden;        /* hide edges while animating */
+  padding: 0;              /* IMPORTANT: no side padding */
 }
 
-.carousel {
+.carousel{
   display: flex;
-  overflow: hidden;     /* hide overflow, not scroll */
-  padding: 20px 0;
-  gap: 30px;
+  gap: 30px;               /* your spacing between cards */
+  padding: 0;              /* IMPORTANT: no side padding */
+  margin: 0;               /* no side margin either */
+  will-change: transform;
+  overflow: visible
 }
 
 .carousel::-webkit-scrollbar {
   display: none;
 }
 
-.certificate-item {
-  min-width: 300px;
-  flex-shrink: 0;
-  text-align: center;
-}
+.certificate-item { flex: 0 0 auto; margin: 0; box-sizing: border-box; }
 
 .photo-frame {
   border: 12px solid #d4af37; /* Gold-ish frame */
@@ -1270,10 +1267,16 @@ margin-bottom: .25rem;
   font-size: 2em;
   padding: 5px 15px;
   cursor: pointer;
-  position: relative;
-  z-index: 2;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
   transition: background 0.2s;
+  pointer-events: auto;
 }
+
+.carousel-btn.left{ left: 8px; }
+.carousel-btn.right{ right: 8px; }
 
 .carousel-btn:hover {
   background: #f0f0f0;

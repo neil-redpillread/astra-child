@@ -77,18 +77,62 @@ document.addEventListener('DOMContentLoaded', function () {
   skillCards.forEach(card => observer.observe(card));
 });
 function scrollCarousel(direction) {
-  const container = document.getElementById('carousel');
-  const items = container.querySelectorAll('.certificate-item');
-  if (!items.length) return;
+  const row = document.getElementById('carousel');
+  if (!row || row._animating) return;
+
+  const items = row.querySelectorAll('.certificate-item');
+  if (items.length < 2) return;
+
+  // EXACT step: horizontal distance between the first two cards (includes gap)
+  function stepPx() {
+    const a = items[0].getBoundingClientRect();
+    const b = items[1].getBoundingClientRect();
+    return Math.round(b.left - a.left);
+  }
+
+  const step = stepPx();
+  const dur  = 400;
+  const ease = 'cubic-bezier(.22,.61,.36,1)';
+  row._animating = true;
 
   if (direction === 1) {
-    // RIGHT arrow: move first item to the end
-    const first = items[0];
-    container.appendChild(first);
+    // RIGHT nav: visual motion = right→left
+    const first = row.firstElementChild;
+    const ghost = first.cloneNode(true);      // fill far-right edge
+    row.appendChild(ghost);
+
+    row.style.transition = `transform ${dur}ms ${ease}`;
+    row.style.transform  = `translate3d(${-step}px,0,0)`;
+
+    row.addEventListener('transitionend', function onEnd() {
+      row.removeEventListener('transitionend', onEnd);
+      row.style.transition = 'none';
+      row.style.transform  = 'translate3d(0,0,0)';
+      row.removeChild(first);                 // ghost remains as new last
+      void row.offsetHeight;
+      row._animating = false;
+    }, { once:true });
+
   } else if (direction === -1) {
-    // LEFT arrow: move last item to the start
-    const last = items[items.length - 1];
-    container.insertBefore(last, items[0]);
+    // LEFT nav: visual motion = left→right
+    const last  = row.lastElementChild;
+    const ghost = last.cloneNode(true);       // fill far-left edge
+    row.insertBefore(ghost, row.firstElementChild);
+
+    row.style.transition = 'none';
+    row.style.transform  = `translate3d(${-step}px,0,0)`;
+    requestAnimationFrame(() => {
+      row.style.transition = `transform ${dur}ms ${ease}`;
+      row.style.transform  = 'translate3d(0,0,0)';
+    });
+
+    row.addEventListener('transitionend', function onEnd() {
+      row.removeEventListener('transitionend', onEnd);
+      row.style.transition = 'none';
+      row.removeChild(row.lastElementChild);  // drop original last
+      void row.offsetHeight;
+      row._animating = false;
+    }, { once:true });
   }
 }
 
