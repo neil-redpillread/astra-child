@@ -61,20 +61,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
   skillCards.forEach(card => observer.observe(card));
 });
-(function () {
-  document.querySelectorAll('.skill-bar').forEach(sb => {
-  const pct  = parseInt(sb.getAttribute('data-pct') || '0', 10);
-  const fill = sb.querySelector('.fill');
-  const out  = sb.querySelector('.pct');
-
-  if (fill) fill.style.width = pct + '%';
-  sb.style.setProperty('--pctDec', (pct / 100).toString());  
-  if (out) out.textContent = pct + '%';
-});
-})();
 function scrollCarousel(direction) {
   const container = document.getElementById('carousel');
-  const scrollAmount = 320; // Adjust based on card width
-  container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+  const items = container.querySelectorAll('.certificate-item');
+  if (!items.length) return;
+
+  if (direction === 1) {
+    // RIGHT arrow: move first item to the end
+    const first = items[0];
+    container.appendChild(first);
+  } else if (direction === -1) {
+    // LEFT arrow: move last item to the start
+    const last = items[items.length - 1];
+    container.insertBefore(last, items[0]);
+  }
 }
 
