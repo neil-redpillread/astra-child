@@ -1329,6 +1329,28 @@ section.certifications-section {
     align-items: center;
     gap: 19px;             /* TWEAK 8→6→4 */
   }
+
+   .carousel-container { 
+    position: relative;
+    padding-bottom: 60px;
+    --btn-gap: 84px;        
+  }
+
+  .carousel-btn {
+    position: absolute;
+    top: auto !important;        /* override the 50% rule */
+    bottom: 12px !important;     /* TWEAK: raise/lower */
+    transform: translateX(-50%) !important;
+    width: 40px;                 /* smaller buttons on mobile */
+    height: 40px;
+    left: 50% !important;
+    line-height: 32px;
+    font-size: 16px;
+    z-index: 10;
+  }
+
+  .carousel-btn.left  { left: calc(50% - var(--btn-gap)/2) !important; }
+  .carousel-btn.right { left: calc(50% + var(--btn-gap)/2) !important; }
 }
 
 
