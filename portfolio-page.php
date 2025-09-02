@@ -292,8 +292,7 @@ get_header(); ?>
   </p>
 
   <div class="carousel-container">
-    <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#8249;</button>
-    
+    <button class="carousel-btn left" onclick="scrollCarousel(-1)" aria-label="Previous">‹</button>
     <div class="carousel" id="carousel">
       <!-- Certificate Item -->
       <div class="certificate-item">
@@ -353,7 +352,7 @@ get_header(); ?>
       <!-- Add more certificate items similarly -->
     </div>
 
-    <button class="carousel-btn right" onclick="scrollCarousel(1)">&#8250;</button>
+    <button class="carousel-btn right" onclick="scrollCarousel(1)" aria-label="Next">›</button>
   </div>
 </section>
 <?php get_footer(); ?>

@@ -1261,25 +1261,30 @@ margin-bottom: .25rem;
 }
 
 .carousel-btn {
-  background: #fff;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  font-size: 2em;
-  padding: 5px 15px;
-  cursor: pointer;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 5;
-  transition: background 0.2s;
-  pointer-events: auto;
+  width: 44px;             /* fixed width */
+  height: 44px;            /* fixed height */
+  border-radius: 50%;      /* ensures perfect circle */
+  background: #f77868 !important;     /* match Swiper blue */
+  color: #fff;
+  font-size: 20px;         /* arrow size */
+  line-height: 44px;       /* vertically center arrow */
+  text-align: center;      /* horizontally center arrow */
+  padding: 0;              /* remove default button padding */
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, .12);
+  z-index: 10;
 }
 
-.carousel-btn.left{ left: 8px; }
-.carousel-btn.right{ right: 8px; }
+.carousel-btn.left  { left: clamp(16px, 4vw, 48px); }
+
+.carousel-btn.right { right: clamp(16px, 4vw, 48px); }
 
 .carousel-btn:hover {
-  background: #f0f0f0;
+  background: #b5b5b5;
 }
 
 .left {
