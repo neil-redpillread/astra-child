@@ -76,63 +76,113 @@ document.addEventListener('DOMContentLoaded', function () {
 
   skillCards.forEach(card => observer.observe(card));
 });
-function scrollCarousel(direction) {
+(function () {
   const row = document.getElementById('carousel');
-  if (!row || row._animating) return;
+  if (!row) return;
 
-  const items = row.querySelectorAll('.certificate-item');
-  if (items.length < 2) return;
+  const imgsReady = root => {
+    const imgs = [...root.querySelectorAll('img')];
+    if (!imgs.length) return Promise.resolve();
+    return Promise.all(imgs.map(img => img.complete
+      ? 1
+      : new Promise(r => { img.addEventListener('load', r, {once:true}); img.addEventListener('error', r, {once:true}); })
+    ));
+  };
 
-  // EXACT step: horizontal distance between the first two cards (includes gap)
-  function stepPx() {
-    const a = items[0].getBoundingClientRect();
-    const b = items[1].getBoundingClientRect();
-    return Math.round(b.left - a.left);
+  const stepPx = () => {
+    const a = row.children[0]?.getBoundingClientRect();
+    const b = row.children[1]?.getBoundingClientRect();
+    return a && b ? Math.round(b.left - a.left) : 0;
+  };
+
+  let step = 0;
+  let offset = 0;                // current translateX (negative as we drift left)
+  let running = true;            // auto-drift enabled
+  let lastTs = performance.now();
+
+  const pxPerSec = 28;           // drift speed – tweak
+  function setX(x, withTransition = false) {
+    row.style.transition = withTransition ? 'transform 380ms cubic-bezier(.22,.61,.36,1)' : 'none';
+    row.style.transform  = `translate3d(${x}px,0,0)`;
   }
 
-  const step = stepPx();
-  const dur  = 400;
-  const ease = 'cubic-bezier(.22,.61,.36,1)';
-  row._animating = true;
-
-  if (direction === 1) {
-    // RIGHT nav: visual motion = right→left
-    const first = row.firstElementChild;
-    const ghost = first.cloneNode(true);      // fill far-right edge
-    row.appendChild(ghost);
-
-    row.style.transition = `transform ${dur}ms ${ease}`;
-    row.style.transform  = `translate3d(${-step}px,0,0)`;
-
-    row.addEventListener('transitionend', function onEnd() {
-      row.removeEventListener('transitionend', onEnd);
-      row.style.transition = 'none';
-      row.style.transform  = 'translate3d(0,0,0)';
-      row.removeChild(first);                 // ghost remains as new last
-      void row.offsetHeight;
-      row._animating = false;
-    }, { once:true });
-
-  } else if (direction === -1) {
-    // LEFT nav: visual motion = left→right
-    const last  = row.lastElementChild;
-    const ghost = last.cloneNode(true);       // fill far-left edge
-    row.insertBefore(ghost, row.firstElementChild);
-
-    row.style.transition = 'none';
-    row.style.transform  = `translate3d(${-step}px,0,0)`;
-    requestAnimationFrame(() => {
-      row.style.transition = `transform ${dur}ms ${ease}`;
-      row.style.transform  = 'translate3d(0,0,0)';
-    });
-
-    row.addEventListener('transitionend', function onEnd() {
-      row.removeEventListener('transitionend', onEnd);
-      row.style.transition = 'none';
-      row.removeChild(row.lastElementChild);  // drop original last
-      void row.offsetHeight;
-      row._animating = false;
-    }, { once:true });
+  // Keep offset in [-step, 0) and rotate DOM when we pass one card
+  function normalize() {
+    while (step && -offset >= step) {
+      row.appendChild(row.firstElementChild);
+      offset += step;
+    }
+    while (step && offset > 0) {
+      row.insertBefore(row.lastElementChild, row.firstElementChild);
+      offset -= step;
+    }
+    setX(offset, false);
   }
-}
+
+  function animate(t) {
+    const dt = (t - lastTs) / 1000;
+    lastTs = t;
+
+    // ⛔️ Do not touch transform while a button animation is active
+    if (!row._animating && running && step) {
+      offset -= pxPerSec * dt;   // right -> left
+      normalize();
+    }
+    requestAnimationFrame(animate);
+  }
+
+  // Helper to run a transition safely (pauses drift during the click)
+  function withPausedDrift(run, onEnd) {
+    const wasRunning = running;
+    running = false;             // pause drift
+    row._animating = true;
+
+    run();                       // do the transition work
+
+    row.addEventListener('transitionend', function handler() {
+      row.removeEventListener('transitionend', handler);
+      row.style.transition = 'none';
+      onEnd && onEnd();
+      row._animating = false;
+      running = wasRunning;      // resume drift
+    }, { once: true });
+  }
+
+  // Public API used by your buttons
+  window.scrollCarousel = function(direction) {
+    if (!step || row._animating) return;
+
+    if (direction === 1) {
+      // NEXT: slide left by one step from current offset
+      const target = offset - step;
+      withPausedDrift(
+        () => setX(target, true),
+        () => { offset = target; normalize(); }
+      );
+
+    } else if (direction === -1) {
+      // PREV: pre-insert last at front, shift left one step, animate back
+      row.insertBefore(row.lastElementChild, row.firstElementChild);
+      offset -= step;            // keep visual position
+      setX(offset, false);
+
+      requestAnimationFrame(() => {
+        const target = offset + step; // back toward 0
+        withPausedDrift(
+          () => setX(target, true),
+          () => { offset = target; normalize(); }
+        );
+      });
+    }
+  };
+
+  // Pause drift while pressing; resume on release
+  row.addEventListener('pointerdown', () => running = false);
+  window.addEventListener('pointerup', () => running = true);
+
+  // Init
+  function measureAndReset() { step = stepPx(); normalize(); }
+  imgsReady(row).then(() => { measureAndReset(); requestAnimationFrame(animate); });
+  window.addEventListener('resize', measureAndReset);
+})();
 
