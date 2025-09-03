@@ -1203,7 +1203,8 @@ margin-bottom: .25rem;
 .carousel-container {
   position: relative;
   overflow: hidden;        /* hide edges while animating */
-  padding: 0;              /* IMPORTANT: no side padding */
+  padding: 0;
+  margin: 0 auto;              /* IMPORTANT: no side padding */
 }
 
 .carousel{
@@ -1219,7 +1220,11 @@ margin-bottom: .25rem;
   display: none;
 }
 
-.certificate-item { flex: 0 0 auto; margin: 0; box-sizing: border-box; }
+.certificate-item { 
+  flex: 0 0 auto; 
+  margin: 0; 
+  box-sizing: border-box;
+  scroll-snap-align: start; }
 
 .photo-frame {
   border: 12px solid #d4af37; /* Gold-ish frame */
@@ -1425,19 +1430,20 @@ body {
 .carousel-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  max-width: 100vw; 
-  margin-left: auto;
-  margin-right: auto;
+  width: 100vw;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 #carousel {
-display: flex;
-  gap: 30px;
-  will-change: transform;
-  transform: translateX(0); /* initial state */
-  max-width: 100%;
-  overflow: hidden;
+   display: flex;
+  flex-wrap: nowrap;
+  width: max-content;
+  padding: 0;
+  margin: 0;
+  gap: 30px; /* keep this or adjust to your spacing preference */
+  transition: transform 0.4s ease;
 }
 
 html, body {
