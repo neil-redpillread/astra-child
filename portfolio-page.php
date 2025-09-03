@@ -359,10 +359,26 @@ get_header(); ?>
   <h2>In Their Own Words</h2>
   <p class="testimonial-intro">Here’s what past clients have shared about working with me.</p>
 
-  <div class="testimonial-card">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headshots/test1.webp" alt="Krystina K" class="testimonial-photo">
-    <blockquote class="testimonial-quote">“East or west, Neil is the best”</blockquote>
-    <p class="testimonial-author">— Krystina K<br><span class="designation">Chairman, DSC</span></p>
-  </div>
+  <div class="testimonial-outer-wrapper">
+  <div class="swiper testimonial-carousel">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headshots/test1.webp" alt="Krystina K" class="testimonial-photo">
+          <blockquote class="testimonial-quote">“East or west, Neil is the best”</blockquote>
+          <p class="testimonial-author">— Krystina K<br><span class="designation">Chairman, DSC</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headshots/test1.webp" alt="Krystina K" class="testimonial-photo">
+          <blockquote class="testimonial-quote">“East or test, Neil is the best”</blockquote>
+          <p class="testimonial-author">— Krystina K<br><span class="designation">Chairman, DSC</span></p>
+        </div>
+      </div>
+      <!-- Add more slides like this -->
+    </div>
+    </div>
 </section>
 <?php get_footer(); ?>

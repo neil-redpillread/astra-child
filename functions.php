@@ -46,3 +46,9 @@ add_action('wp_enqueue_scripts', function () {
     true
   );
 });
+function load_swiper_assets() {
+  wp_enqueue_style('swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css');
+  wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', [], null, true);
+}
+add_action('wp_enqueue_scripts', 'load_swiper_assets');
+

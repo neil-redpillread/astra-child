@@ -186,3 +186,16 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('resize', measureAndReset);
 })();
 
+new Swiper('.testimonial-carousel', {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 24,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
