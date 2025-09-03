@@ -1335,12 +1335,12 @@ section.certifications-section {
     gap: 19px;             /* TWEAK 8→6→4 */
   }
 
-   .carousel-container { 
+    section.certifications-section .carousel-container { 
     position: relative;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     --btn-gap: 84px;        
   }
-
+  
   .carousel-btn {
     position: absolute;
     top: auto !important;        /* override the 50% rule */
