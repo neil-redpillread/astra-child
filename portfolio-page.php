@@ -354,5 +354,14 @@ get_header(); ?>
 
     <button class="carousel-btn right" onclick="scrollCarousel(1)" aria-label="Next">›</button>
   </div>
+  <section class="testimonials-section">
+  <h2>In Their Own Words</h2>
+  <p class="testimonial-intro">Here’s what past clients have shared about working with me.</p>
+
+  <div class="testimonial-card">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headshots/test1.webp" alt="Krystina K" class="testimonial-photo">
+    <blockquote class="testimonial-quote">“East or west, Neil is the best”</blockquote>
+    <p class="testimonial-author">— Krystina K<br><span class="designation">Chairman, DSC</span></p>
+  </div>
 </section>
 <?php get_footer(); ?>
