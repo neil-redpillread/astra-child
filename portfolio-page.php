@@ -354,6 +354,7 @@ get_header(); ?>
 
     <button class="carousel-btn right" onclick="scrollCarousel(1)" aria-label="Next">›</button>
   </div>
+  </section>
   <section class="testimonials-section">
   <h2>In Their Own Words</h2>
   <p class="testimonial-intro">Here’s what past clients have shared about working with me.</p>

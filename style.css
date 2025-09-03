@@ -1418,6 +1418,35 @@ section.certifications-section {
   font-size: 0.95rem;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100vw; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carousel {
+display: flex;
+  gap: 30px;
+  will-change: transform;
+  transform: translateX(0); /* initial state */
+  max-width: 100%;
+  overflow: hidden;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 
 
 
