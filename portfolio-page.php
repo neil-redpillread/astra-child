@@ -393,9 +393,9 @@ get_header(); ?>
   <div class="contact-right">
     <h3>My Socials</h3>
     <div class="social-icons">
-      <a href="#"><img src="linkedin.svg" alt="LinkedIn" /></a>
-      <a href="#"><img src="gmail.svg" alt="Gmail" /></a>
-      <a href="#"><img src="github.svg" alt="GitHub" /></a>
+      <a href="https://www.linkedin.com/in/neil-jose/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/linkedIn_logo.webp" alt="LinkedIn logo" /></a>
+      <a href="mailto:redpillread@gmail.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/gmail-logo.webp" alt="Gmail logo" /></a>
+      <a href="https://github.com/neil-redpillread"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/github-logo.webp" alt="GitHub" /></a>
       <a href="#"><img src="youtube.svg" alt="YouTube" /></a>
       <a href="#"><img src="instagram.svg" alt="Instagram" /></a>
       <a href="#"><img src="facebook.svg" alt="Facebook" /></a>
