@@ -1362,11 +1362,25 @@ section.certifications-section {
   
   .certifications-section p {
     text-align: justify;}
+  
+  .certifications-section {
+    padding: 48px 16px;  /* reduce from 100px to 48px */
+    margin: 32px auto;   /* reduce from 60px to 32px */
+  }
+
+  section.certifications-section {
+    padding: 48px 16px;         /* Reduce padding on smaller screens */
+    margin: 30px auto;             /* Center horizontally */
+    width: 100%;                /* Full width */
+    max-width: 100%;            /* Allow it to shrink to screen */
+    box-sizing: border-box;     /* Include padding in width */
+  }
+
 }
 
 .testimonials-section {
   max-width: 900px;
-  margin: 80px auto;
+  margin: 10px auto;
   padding: 0 1.5rem;
   text-align: center;
   padding-top: 3rem;
@@ -1474,7 +1488,15 @@ html, body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+@media (max-width: 600px) {
+.testimonials-section h2 {
+font-size: 2rem;
+margin-bottom: 0.5rem; 
+}
+.testimonials-section {
+margin: 40px auto;
+}
+} 
 
 
 
