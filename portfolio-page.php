@@ -381,4 +381,33 @@ get_header(); ?>
     </div>
     </div>
 </section>
+<section class="contact-section">
+  <div class="contact-left">
+    <h2>Let’s Connect</h2>
+    <p>
+    Thanks for stopping by! Whether you're a small business looking to boost your online presence or you're interested in pro SEO services to climb the Google rankings, I’d love to hear from you. Even if you just want to connect or network, my inbox is always open.
+    </p>
+    <a href="#services" class="cta-button">Explore Services</a>
+  </div>
+
+  <div class="contact-right">
+    <h3>My Socials</h3>
+    <div class="social-icons">
+      <a href="#"><img src="linkedin.svg" alt="LinkedIn" /></a>
+      <a href="#"><img src="gmail.svg" alt="Gmail" /></a>
+      <a href="#"><img src="github.svg" alt="GitHub" /></a>
+      <a href="#"><img src="youtube.svg" alt="YouTube" /></a>
+      <a href="#"><img src="instagram.svg" alt="Instagram" /></a>
+      <a href="#"><img src="facebook.svg" alt="Facebook" /></a>
+    </div>
+
+    <div class="cv-download">
+      <a href="CV-Neil-Jose.pdf" download>📄 CV Download Link</a>
+    </div>
+
+    <div class="contact-number">
+    0892127114
+    </div>
+  </div>
+</section>
 <?php get_footer(); ?>
