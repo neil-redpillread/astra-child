@@ -397,7 +397,7 @@ get_header(); ?>
       <a href="mailto:redpillread@gmail.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/gmail-logo.webp" alt="Gmail logo" /></a>
       <a href="https://github.com/neil-redpillread"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/github-logo.webp" alt="GitHub" /></a>
       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/youtube-logo.webp" alt="YouTube-logo" /></a>
-      <a href="#"><img src="instagram.svg" alt="Instagram" /></a>
+      <a href="https://www.instagram.com/neiljose4real/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/instagram-logo.webp" alt="Instagram" /></a>
       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/X_logo.webp" alt="x-logo" /></a>
     </div>
 
