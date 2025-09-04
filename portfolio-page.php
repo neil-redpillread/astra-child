@@ -396,9 +396,9 @@ get_header(); ?>
       <a href="https://www.linkedin.com/in/neil-jose/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/linkedIn_logo.webp" alt="LinkedIn logo" /></a>
       <a href="mailto:redpillread@gmail.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/gmail-logo.webp" alt="Gmail logo" /></a>
       <a href="https://github.com/neil-redpillread"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/github-logo.webp" alt="GitHub" /></a>
-      <a href="#"><img src="youtube.svg" alt="YouTube" /></a>
+      <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/youtube-logo.webp" alt="YouTube-logo" /></a>
       <a href="#"><img src="instagram.svg" alt="Instagram" /></a>
-      <a href="#"><img src="facebook.svg" alt="Facebook" /></a>
+      <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/X_logo.webp" alt="x-logo" /></a>
     </div>
 
     <div class="cv-download">
