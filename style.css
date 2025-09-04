@@ -1361,21 +1361,13 @@ section.certifications-section {
     font-size: 2rem;}
   
   .certifications-section p {
-    text-align: justify;}
+    text-align: justify;
+    padding:0 18px;}
   
   .certifications-section {
     padding: 48px 16px;  /* reduce from 100px to 48px */
     margin: 32px auto;   /* reduce from 60px to 32px */
   }
-
-  section.certifications-section {
-    padding: 48px 16px;         /* Reduce padding on smaller screens */
-    margin: 30px auto;             /* Center horizontally */
-    width: 100%;                /* Full width */
-    max-width: 100%;            /* Allow it to shrink to screen */
-    box-sizing: border-box;     /* Include padding in width */
-  }
-
 }
 
 .testimonials-section {
