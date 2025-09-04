@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('resize', measureAndReset);
 })();
 
-new Swiper('.testimonial-carousel', {
+  const testimonialSwiper = new Swiper('.testimonial-carousel', {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 24,
