@@ -1550,17 +1550,17 @@ overflow: visible !important; /* allow shadows to show */
   margin-bottom: 2rem;
 }
 
-.cta-button {
-  background: #3341ff;
+.contact-section .cta-button {
+  background: #ff0000;
   color: #fff;
   padding: 12px 24px;
-  font-weight: bold;
+  font-weight: normal;
   border-radius: 999px;
   text-decoration: none;
   transition: background 0.3s ease;
 }
-.cta-button:hover {
-  background: #222dcf;
+.contact-section .cta-button:hover {
+  background: #cc0000;
 }
 
 .contact-right h3 {
