@@ -390,7 +390,7 @@ get_header(); ?>
     <a href="#services" class="cta-button">Explore Services</a>
   </div>
 
-  <div class="contact-right">
+  <div class="contact-right" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/stock-images/notepad-image.webp');">
     <h3>My Socials</h3>
     <div class="social-icons">
       <a href="https://www.linkedin.com/in/neil-jose/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/linkedIn_logo.webp" alt="LinkedIn logo" /></a>

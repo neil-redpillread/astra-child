@@ -1603,6 +1603,15 @@ margin-bottom: 2rem;
 text-align: justify;
 }
 
+.contact-right {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 6rem 2rem 2rem 2rem;
+  border-radius: 20px;
+  min-height: 500px;
+}
+
 @media (max-width: 768px) {
   .contact-section {
     flex-direction: column;
