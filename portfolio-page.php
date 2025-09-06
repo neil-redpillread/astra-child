@@ -406,7 +406,7 @@ get_header(); ?>
     </div>
 
     <div class="contact-number">
-    0892127114
+    Contact number: 0892127114
     </div>
   </div>
 </section>
