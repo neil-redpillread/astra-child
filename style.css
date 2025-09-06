@@ -1529,13 +1529,13 @@ overflow: visible !important; /* allow shadows to show */
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 15rem;
+  gap: 10rem;
   padding: 64px 32px;
   background: #ffffff;
   border-radius: 24px;
   box-shadow: 0 4px 20px 15px rgba(0, 0, 0, 0.05);
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 70px auto;
 }
 
 .contact-left, .contact-right {
