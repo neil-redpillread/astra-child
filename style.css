@@ -1644,7 +1644,9 @@ text-align: justify;
   background-image: none !important;
   background-color: transparent; 
   box-shadow: none;              
-  border-radius: 0;              
+  border-radius: 0;
+  min-height: auto;
+  padding-bottom: 2rem;              
   }
   .contact-section .cta-button {
     display: inline-block;
@@ -1663,6 +1665,21 @@ text-align: justify;
     .desktop-only {
         display: none;
     }
+    .social-icons{
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 15px;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.social-icons img{
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
 }
 
 
