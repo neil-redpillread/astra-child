@@ -1625,6 +1625,7 @@ text-align: justify;
     border-radius: 0;
     box-shadow: none;
     background: none;
+    gap: 1rem;
   }
 
   .contact-left, .contact-right {
@@ -1633,6 +1634,17 @@ text-align: justify;
   .contact-left h2 {
     font-size: 2rem;
 }
+.contact-right {
+  background-image: none !important;
+  background-color: transparent; 
+  box-shadow: none;              
+  border-radius: 0;              
+  }
+  .contact-section .cta-button {
+    display: inline-block;
+    margin: 1.5rem auto 0; 
+    text-align: center;
+  }
 }
 
 
