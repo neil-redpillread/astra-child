@@ -406,7 +406,13 @@ get_header(); ?>
     </div>
 
     <div class="contact-number">
-    Contact number: +353 892127114
+     <span class="mobile-only">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/emojis/phone-emoji.webp" alt="Phone Icon" style="width: 16px; vertical-align: middle; margin-right: 8px;">
+        +353 892127114
+    </span>
+    <span class="desktop-only">
+        Contact number: +353 892127114
+    </span>
     </div>
   </div>
 </section>

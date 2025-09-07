@@ -1615,6 +1615,12 @@ text-align: justify;
   border-radius: 20px;
   min-height: 500px;
 }
+.mobile-only {
+    display: none;
+}
+.desktop-only {
+    display: inline;
+}
 
 @media (max-width: 768px) {
   .contact-section {
@@ -1645,6 +1651,18 @@ text-align: justify;
     margin: 1.5rem auto 0; 
     text-align: center;
   }
+  .contact-number .label-text {
+    display: none;
+  }
+  .contact-number .phone-number {
+    display: inline-block;
+  }
+   .mobile-only {
+        display: inline;
+    }
+    .desktop-only {
+        display: none;
+    }
 }
 
 
