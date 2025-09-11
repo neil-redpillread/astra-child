@@ -763,10 +763,26 @@ body.page-template-portfolio-page .swiper-button-next{
 body.page-template-portfolio-page .swiper-button-prev{ left: clamp(16px, 4vw, 48px); }
 body.page-template-portfolio-page .swiper-button-next{ right: clamp(16px, 4vw, 48px); }
 
-body.page-template-portfolio-page .swiper-button-prev::after,
-body.page-template-portfolio-page .swiper-button-next::after{
-  font-size: 20px;   
+body.page-template-portfolio-page .swiper-button-prev::after {
+  content: '‹';  /* or use unicode \2039 */
+  font-size: 20px;
+  line-height: 1;
 }
+body.page-template-portfolio-page .swiper-button-next::after{
+content: '›';  /* or use unicode \203A */
+font-size: 20px;
+line-height: 1;     
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none !important;
+}
+body.page-template-portfolio-page .swiper-button-prev svg,
+body.page-template-portfolio-page .swiper-button-next svg {
+  width: 20px !important;
+  height: 20px !important;
+}
+
 body.page-template-portfolio-page .swiper-button-prev:hover,
 body.page-template-portfolio-page .swiper-button-next:hover,
 body.page-template-portfolio-page .swiper-button-prev:focus-visible,
