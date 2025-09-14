@@ -13,9 +13,15 @@ get_header(); ?>
   </section>
 
   <section class="stats">
-    <div><strong>35%</strong> Increase in Conversions</div>
-    <div><strong>4x</strong> More Organic Traffic</div>
-    <div><strong>120+</strong> Top 10 Keyword Rankings</div>
+    <div class="stat-box">
+    <div><strong>88%</strong> Traffic Growth</div>
+    </div>
+    <div class="stat-box">
+    <div><strong>15,159</strong> New Organic Keywords</div>
+    </div>
+    <div class="stat-box">
+    <div><strong>1641</strong> 1st Page Rankings</div>
+    </div>
   </section>
 
   <section class="content">
