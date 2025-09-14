@@ -1790,13 +1790,30 @@ text-align: justify;
 .acodez-case-study .content {
 text-align: center;
 }
-.acodez-case-study .content img.growth-chart {
-max-width: 700px;   
-  width: 100%;        
+.acodez-case-study .content figure.growth-chart {
+  max-width: 700px;
+  margin: 2rem auto; 
+  text-align: center;
+}
+.acodez-case-study .content figure.growth-chart img {
+  width: 100%;
   height: auto;
-  margin: 0 auto;     
+  border-radius: 10px;
   display: block;
 }
+.acodez-case-study .content figure.growth-chart figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic; /* optional */
+}
+.acodez-case-study .content h2 {
+  text-align: left;
+  margin: 4rem auto 1rem auto; 
+  max-width: 800px; 
+  font-size: 2rem;
+}
+
 
 
 
