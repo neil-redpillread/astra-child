@@ -9,7 +9,7 @@ get_header(); ?>
   <section class="hero">
     <h1>Acodez IT Solutions: Increased Organic Traffic by 88% in 2.5 Years</h1>
     <p>From November 2019 to February 2022, I served as the Digital PR and Outreach Team Lead at Acodez, a web development and digital marketing agency founded in 2011 and based in India.</p>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-hero-image-01.webp" alt="Acodez-hero-section" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-hero-image-01.webp" alt="Acodez-hero-section"/>
   </section>
 
   <section class="stats">
@@ -25,8 +25,9 @@ get_header(); ?>
   </section>
 
   <section class="content">
-    <?php the_content(); ?>
-  </section>
+   <p>During my tenure, I played a key role in implementing SEO strategies—primarily on-page and off-page SEO—that helped grow the site’s organic traffic from <em>13,048 → 24,599</em> monthly visitors.</p>
+   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-traffic-before-after.webp" alt="Acodez organic traffic growth chart" class="growth-chart">
+</section>
 
 </main>
 

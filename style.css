@@ -1778,7 +1778,25 @@ text-align: justify;
     margin-top: 1.75em;
     font-size: 1.125rem;
 }
-
+.acodez-case-study .content p {
+  margin-bottom: 1.75em;
+  font-size: 1.125rem;
+   max-width: 800px;   /* controls line length */
+  margin-left: auto;  /* center horizontally */
+  margin-right: auto; /* center horizontally */
+  line-height: 1.6;
+  text-align: justify;
+}
+.acodez-case-study .content {
+text-align: center;
+}
+.acodez-case-study .content img.growth-chart {
+max-width: 700px;   
+  width: 100%;        
+  height: auto;
+  margin: 0 auto;     
+  display: block;
+}
 
 
 
