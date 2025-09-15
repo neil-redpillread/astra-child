@@ -79,7 +79,7 @@ get_header(); ?>
 </div>
 <h3> Result: 16x Growth in Plugin Downloads </h3>
       <div class="case-footer">
-  <a class="btn-case-study" href="/case-studies/acmecase">View Case Study</a>
+  <a class="btn-case-study" href="/case-study/acowebs-case-study/">View Case Study</a>
 </div>
 </div>
 <!-- slide 3 -->
