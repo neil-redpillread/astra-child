@@ -24,7 +24,7 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="content">
+  <section class="content content-box">
    <p>During my tenure, I played a key role in implementing SEO strategies—primarily on-page and off-page SEO—that helped grow the site’s organic traffic from <em>13,048 → 24,599</em> monthly visitors.</p>
    <figure class="growth-chart">
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-traffic-before-after.webp" alt="Acodez organic traffic growth chart">
@@ -71,7 +71,12 @@ get_header(); ?>
   <li>📝 Content Growth: Contributed to the production of 200+ new content pieces</li>
   </ul>  
 </section>
-
+<section class="cta">
+  <div class="cta-content">
+  <p><em>Grow your small business online with proven SEO strategies. Book a quick call today to learn how my <a href="https://marketing.redpillread.com/services/">professional SEO services</a> can scale your business.</em></p>
+  </div>
+  <a href="/contact" class="cta-button">Book a Consultation</a>
+</section>
 </main>
 
 <?php get_footer(); ?>
