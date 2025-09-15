@@ -4,7 +4,7 @@ Template Name: Acodez Case Study
 */
 get_header(); ?>
 
-<main class="acodez-case-study">
+<main class="case-study">
 
   <section class="hero">
     <h1>Acodez IT Solutions: Increased Organic Traffic by 88% in 2.5 Years</h1>

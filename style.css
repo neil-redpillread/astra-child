@@ -1732,7 +1732,7 @@ text-align: justify;
   }
 }
 
-.acodez-case-study .hero {
+.case-study .hero {
   text-align: center;
   padding: 4rem 2rem;
   background: #f4feff;
@@ -1740,20 +1740,20 @@ text-align: justify;
   margin-top: 50px;
   box-shadow: 0px 8px 24px 7px rgba(0, 0, 0, 0.08);
 }
-.acodez-case-study .hero img {
+.case-study .hero img {
   border-radius: 13px;
   margin-top: 30px;
   box-shadow: 0px 8px 24px 7px rgba(0, 0, 0, 0.08);
 }
 
-.acodez-case-study .stats {
+.case-study .stats {
   display: flex;
   justify-content: center;
   gap: 6rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-.acodez-case-study .stat-box {
+.case-study .stat-box {
   background-color: #ffffff;
   padding: 1.5rem 2rem;
   border-radius: 12px;
@@ -1762,60 +1762,60 @@ text-align: justify;
   min-width: 180px;
   transition: transform 0.2s ease;
 }
-.acodez-case-study .stat-box:hover {
+.case-study .stat-box:hover {
   transform: translateY(-5px);
 }
-.acodez-case-study .stat-box strong {
+.case-study .stat-box strong {
   display: block;
   font-size: 1.5rem;
   color: #c42a2a;
 }
-.acodez-case-study .stat-box p {
+.case-study .stat-box p {
   margin: 0.25rem 0 0;
   font-size: 1rem;
   color: #444;
 }
-.acodez-case-study .hero p {
+.case-study .hero p {
   margin-bottom: 1.75em;
-    margin-top: 1.75em;
-    font-size: 1.125rem;
+  margin-top: 1.75em;
+  font-size: 1.125rem;
 }
-.acodez-case-study .content p {
+.case-study .content p {
   margin-bottom: 1.75em;
   font-size: 1.125rem;
-   max-width: 800px;   /* controls line length */
+  max-width: 800px;   /* controls line length */
   margin-left: auto;  /* center horizontally */
   margin-right: auto; /* center horizontally */
   line-height: 1.6;
   text-align: justify;
 }
-.acodez-case-study .content {
-text-align: center;
-}
-.acodez-case-study .content figure.growth-chart {
-  max-width: 700px;
-  margin: 2rem auto; 
+.case-study .content {
   text-align: center;
 }
-.acodez-case-study .content figure.growth-chart img {
+.case-study .content figure.growth-chart {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.case-study .content figure.growth-chart img {
   width: 100%;
   height: auto;
   border-radius: 10px;
   display: block;
 }
-.acodez-case-study .content figure.growth-chart figcaption {
+.case-study .content figure.growth-chart figcaption {
   font-size: 0.9rem;
   color: #666;
   margin-top: 0.5rem;
   font-style: italic; /* optional */
 }
-.acodez-case-study .content h2 {
+.case-study .content h2 {
   text-align: left;
-  margin: 4rem auto 1rem auto; 
-  max-width: 800px; 
+  margin: 4rem auto 1rem auto;
+  max-width: 800px;
   font-size: 2rem;
 }
-.acodez-case-study .content ul {
+.case-study .content ul {
   max-width: 800px;
   margin: 1.5rem auto;   /* centers the whole list block */
   padding-left: 1.5rem;  /* space for bullets */
@@ -1823,24 +1823,24 @@ text-align: center;
   list-style-position: outside; /* bullets outside text block */
   font-size: 1.125rem;
 }
-.acodez-case-study .content ul li {
+.case-study .content ul li {
   margin-bottom: 0.75rem;
   line-height: 1.6;
 }
-.acodez-case-study .content h3 {
+.case-study .content h3 {
   text-align: left;
   margin: 1rem auto 1rem auto;
   font-size: 1.5rem;
   max-width: 800px;
 }
-.acodez-case-study .content-box {
+.case-study .content-box {
   background: #f4feff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0px 4px 20px 8px rgba(0, 0, 0, 0.05);
   margin-bottom: 50px;
 }
-.acodez-case-study .cta {
+.case-study .cta {
   background: #ffffff;        /* light background */
   padding: 3rem 2rem;
   margin: 3rem auto;
@@ -1848,7 +1848,7 @@ text-align: center;
   border-radius: 12px;
   font-size: 1.25rem;
 }
-.acodez-case-study .cta .cta-button {
+.case-study .cta .cta-button {
   display: inline-block;
   background: #e63946;
   color: #fff;
@@ -1859,37 +1859,41 @@ text-align: center;
   text-decoration: none;
   transition: background 0.3s ease;
 }
-.acodez-case-study .cta .cta-button:hover {
+.case-study .cta .cta-button:hover {
   background: #cc0000;
 }
+
 @media (max-width: 767px) {
-   .acodez-case-study .stats {
+  .case-study .stats {
     display: flex;
     flex-wrap: nowrap;            /* keep in one line */
     justify-content: space-between;
     gap: 0.5rem;                  /* smaller gap so they fit */
   }
 
-  .acodez-case-study .stat-box {
+  .case-study .stat-box {
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
     flex: 1 1 0;                  /* equal width, shrink as needed */
     min-width: 0;                 /* allow shrinking beyond content */
     text-align: center;
-    justify-content: center; 
+    justify-content: center;
   }
-  .acodez-case-study .cta .cta-content {
-  display: flex;
-  justify-content: center;
+  .case-study .cta .cta-content {
+    display: flex;
+    justify-content: center;
+  }
+  .case-study .cta .cta-button {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
 }
-.acodez-case-study .cta .cta-button {
- display: block;
- justify-content: center;
- width: 100%;
- max-width: 200px;
- margin: 0 auto;
-}
+.case-study-acowebs .hero {
+  background:#e4f6fe;
 }
 
 

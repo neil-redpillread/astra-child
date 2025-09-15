@@ -4,28 +4,28 @@ Template Name: Acowebs Case Study
 */
 get_header(); ?>
 
-<main class="acodez-case-study">
+<main class="case-study case-study-acowebs">
 
   <section class="hero">
     <h1>Driving 16x Growth in Plugin Downloads for Acowebs</h1>
     <p>Acowebs is a WooCommerce plugin store with customers in 130+ countries.</p>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-hero-image-01.webp" alt="Acodez-hero-section"/>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acowebs-hero-image.webp" alt="Acowebs-hero-image"/>
   </section>
 
   <section class="stats">
     <div class="stat-box">
-    <div><strong>88%</strong> Traffic Growth</div>
+    <div><strong>50,000+</strong> Plugin Downloads</div>
     </div>
     <div class="stat-box">
-    <div><strong>15,159</strong> New Organic Keywords</div>
+    <div><strong>+87%</strong> Increased Keyword Visibility</div>
     </div>
     <div class="stat-box">
-    <div><strong>1641</strong> 1st Page Rankings</div>
+    <div><strong>81%</strong> Traffic Growth</div>
     </div>
   </section>
 
   <section class="content content-box">
-   <p>During my tenure, I played a key role in implementing SEO strategies—primarily on-page and off-page SEO—that helped grow the site’s organic traffic from <em>13,048 → 24,599</em> monthly visitors.</p>
+   <p>When I joined their SEO team in 2019, the company had achieved around 3,000 plugin downloads but needed to scale visibility and brand authority to compete in a crowded WordPress/WooCommerce market.</p>
    <figure class="growth-chart">
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-traffic-before-after.webp" alt="Acodez organic traffic growth chart">
    <figcaption>Organic traffic growth at Acodez: +88% increase over 2.5 years (Source:<a href="https://www.semrush.com/" target="_blank" rel="nofollow noopener noreferrer "> Semrush</a>).</figcaption>
