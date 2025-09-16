@@ -37,19 +37,17 @@ get_header(); ?>
 </div>
         <p> Digital Strategy Consultants, founded in 2012, is a digital marketing agency and consultancy based in Dublin, a global hub for digital marketing excellence.</p>
         <h4>Objective</h4>
-        <p> Increase online visibility and organic ranking </p>
+        <p> Improvements keyword rankings, organic traffic, and backlink profile.</p>
         <div class="strategy-row">
   <h4 class="strategy-heading">Strategy:</h4>
   <ul class="strategy-tags">
-    <li><a href="/services/digital-pr/">Digital PR</a></li>
-    <li><a href="/services/keyword-research/">Keyword research</a></li>
-    <li><a href="/services/link-building/">Link-building</a></li>
-    <li><a href="/services/website-audit/">website audit</a></li>
-    <li><a href="/services/Google-ads/">Google ads</a></li>
-    <li><a href="/services/Google-ads/">black hat SEO</a></li>
+    <li><a href="/services/digital-pr/">Off-Page SEO</a></li>
+    <li><a href="/services/keyword-research/">On-Page SEO</a></li>
+    <li><a href="/services/link-building/">Technical SEO</a></li>
+    <li><a href="/services/website-audit/">Authority Metrics</a></li>
   </ul>
 </div>
-        <h3> Result: 600% increase in page view </h3>
+        <h3> Result: +120% growth in organic traffic</h3>
       <div class="case-footer">
   <a class="btn-case-study" href="/case-studies/acmecase">View Case Study</a>
 </div>
@@ -134,7 +132,7 @@ get_header(); ?>
 </div>
 <h3>Result: Strengthened Authority & Keyword Visibility</h3>
       <div class="case-footer">
-  <a class="btn-case-study" href="/case-studies/acmecase">View Case Study</a>
+  <a class="btn-case-study" href="/case-studies/ta-case-study">View Case Study</a>
 </div>
 </div>
 <!-- slide 5 -->
