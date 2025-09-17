@@ -23,52 +23,51 @@ get_header(); ?>
     <div><strong>+536%</strong>Domain Ratinting Increase</div>
     </div>
   </section>
-
   <section class="content content-box">
-   <p>Our mission was to strengthen their online presence, build authority, and generate consultation leads in a highly competitive and rapidly emerging market.</p>
-   <figure class="growth-chart">
-   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-traffic-before-after.webp" alt="Acodez organic traffic growth chart">
-   <figcaption>Organic traffic growth at Acodez: +88% increase over 2.5 years (Source:<a href="https://www.semrush.com/" target="_blank" rel="nofollow noopener noreferrer "> Semrush</a>).</figcaption>
-   </figure>
    <h2>Challenge</h2>
-   <p>Operating in a highly competitive digital marketing space, Acodez needed to:</p>
+   <p>Being a newly launched site, aistrategy.ie faced:</p>
    <ul>
-   <li>Strengthen its organic visibility to attract new clients.</li>
-   <li>Improve its backlink profile to compete for high-value keywords.</li>
-   <li>Optimize both on-page and technical SEO to support long-term growth.</li>
+   <li>Very low brand visibility (minimal traffic and keyword rankings)</li>
+   <li>No established domain authority or backlink profile</li>
+   <li>A knowledge gap in the market regarding GPT training and consultancy services</li>
    </ul>
-   <p>With limited resources and a crowded market, the challenge was to create sustainable growth that improved both authority and keyword rankings.</p>
+   <p>The challenge was to create awareness, establish authority, and generate early consultation leads—all within a limited budget and a three-month project window.</p>
    <h2>Strategy</h2>
-   <h3>1. On-Page SEO</h3>
+   <h3>1. Paid Advertising (Google & LinkedIn Ads)</h3>
    <ul>
-   <li>Audited and optimized existing blog content to align with search intent.</li>
-   <li>Updated and refined meta tags, titles, and descriptions to boost CTR.</li>
-   <li>Improved internal linking to enhance navigation and distribute link equity.</li>
+   <li>Launched Google Display and Search Ads to capture brand visibility and drive top-of-funnel awareness.</li>
+   <li>Ran LinkedIn Ads targeting professionals and decision-makers in SMEs, tech firms, and agencies.</li>
    </ul>
-   <h3>2. Off-Page SEO</h3>
+   <h3>2. Content Marketing & SEO</h3>
    <ul>
-   <li>Conducted competitor backlink analysis to identify authoritative domains.</li>
-   <li>Built a database of target sites and launched outreach campaigns.</li>
-   <li>Secured backlinks from high-authority industry leaders.</li>
+   <li>Conducted keyword research and created foundational blog articles aligned with E-E-A-T guidelines.</li>
+   <li>Optimized landing pages for ChatGPT consultancy and Custom GPT solutions.</li>
+   <li>Designed a link-building strategy including guest posts and non-reciprocal link exchanges.</li>
   </ul>
-  <h3>3. Technical SEO</h3>
+  <h3>3. Analytics & Measurement</h3>
   <ul>
-  <li>Performed regular site audits to fix crawlability, speed, and mobile usability issues.</li>
-  <li>Implemented schema markup and managed XML sitemaps to improve indexing.</li>
+  <li>Implemented GA4, Google Tag Manager, and Search Console to measure traffic, CTR, impressions, and conversions.</li>
+  <li>Used UTM parameters to track lead generation from ads and blog CTAs.</li>
   </ul>
   <h2>Results</h2>
   <ul>
-  <li>📈 Organic Traffic: Grew from 13,048 → 24,599 per month (+88%)</li>
-  <li>🔑 Keyword Visibility: Increased from 13,801 → 28,960 total ranking keywords (+110%)</li>
+  <li>📈 Ad Reach: Achieved 250K+ impressions across Google and LinkedIn campaigns</li>
 </ul>
-<figure class="growth-chart">
-   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-keywords-growth.webp" alt="acodez-keywords-growth">
-   <figcaption>+110% growth in keyword visibility at Acodez: from 13,801 to 28,960 ranking keywords in 2.5 years.(Source:<a href="https://www.semrush.com/" target="_blank" rel="nofollow noopener noreferrer "> Semrush</a>).</figcaption>
+  <figure class="growth-chart">
+   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/click and impressions G ads.webp" alt="google-ads-stats">
+   <figcaption>Google Ads campaign performance report (Source: Google Ads)
    </figure>
   <ul>
-  <li>🏆 First-Page Rankings: Improved from 1,517 → 1,641 (+8%)</li>
-  <li>🔗 Backlink Acquisition: Earned high-authority backlinks from G2, Clutch.co, and other industry leaders</li>
-  <li>📝 Content Growth: Contributed to the production of 200+ new content pieces</li>
+  <li>👥 Engagement: Active users and sessions grew by 126%+ and 134%+ respectively during the campaign</li>
+  <li>🔗 Backlink Acquisition: Secured links from industry-relevant sites, boosting Domain Rating from 1.1 → 7</li>
+</ul>
+<figure class="growth-chart">
+   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/gpttraining-dr-growth.webp" alt="gpttraining-dr-growth">
+   <figcaption>Domain Rating growth of aistrategy.ie (Source:<a href="https://ahrefs.com/" target="_blank" rel="nofollow noopener noreferrer"> Ahrefs</a>)
+   </figure>
+  <ul>
+  <li>🔑 Keyword Visibility: Began ranking for core GPT consultancy terms, including “GPT training” and “ChatGPT consulting”</li>
+  <li>🎯 Lead Generation: Ads and CTAs produced 2 consultation leads during the pilot phase</li>
   </ul>  
 </section>
 <section class="cta">
