@@ -25,7 +25,7 @@ get_header(); ?>
   </section>
 
   <section class="content content-box">
-   <p>During my tenure, I played a key role in implementing SEO strategies—primarily on-page and off-page SEO—that helped grow the site’s organic traffic from <em>13,048 → 24,599</em> monthly visitors.</p>
+   <p>Our mission was to strengthen their online presence, build authority, and generate consultation leads in a highly competitive and rapidly emerging market.</p>
    <figure class="growth-chart">
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/case-studies/acodez-traffic-before-after.webp" alt="Acodez organic traffic growth chart">
    <figcaption>Organic traffic growth at Acodez: +88% increase over 2.5 years (Source:<a href="https://www.semrush.com/" target="_blank" rel="nofollow noopener noreferrer "> Semrush</a>).</figcaption>
