@@ -49,7 +49,7 @@ get_header(); ?>
 </div>
         <h3> Result: +120% growth in organic traffic</h3>
       <div class="case-footer">
-  <a class="btn-case-study" href="/case-studies/acmecase">View Case Study</a>
+  <a class="btn-case-study" href="/case-studies/digital-strategy-case-study">View Case Study</a>
 </div>
 </div>
 <!-- slide 2 -->
