@@ -11,7 +11,7 @@ get_header(); ?>
       </div>
       <div class="text-content">
         <p>
-        Hi, I’m Neil Jose — an SEO service provider with over 5 years of hands-on experience in digital marketing, alongside a master’s degree from<a href="https://www.tcd.ie " target="_blank " rel="nofollow noopener noreferrer "> Trinity College Dublin.</a> By hiring me as your dedicated SEO strategist, you give your business the strongest opportunity to rank on Google’s first page. Click the video to learn more about me.
+        Hi, I’m Neil Jose — an SEO service provider with over 5 years of hands-on experience in digital marketing, alongside a master’s degree in digital marketing from<a href="https://www.tcd.ie " target="_blank " rel="nofollow noopener noreferrer "> Trinity College Dublin.</a> By hiring me as your dedicated SEO strategist, you give your business the strongest opportunity to rank on Google’s first page. Click the video to learn more about me.
         </p>
         <a href="<?php echo esc_url( home_url( '/services/' ) ); ?>" class="cta-button">Explore Services</a>
       </div>
