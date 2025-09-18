@@ -972,6 +972,7 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
   }
   .portfolio-clients-carousel h4{                    /* your <h4> Objective / Strategy     */
     margin: 10px 0 6px;
+    font-size: 1.5rem;
   }
 
   body.page-template-portfolio-page .portfolio-clients-carousel{
@@ -1038,6 +1039,7 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
    .swiper-slide.case-study-card h3:not(.case-title){
     font-size: 22px;
     margin-top: 16px;
+    text-align: center;
   }
 
   .btn-case-study{
@@ -1046,7 +1048,7 @@ body.page-template-portfolio-page .portfolio-clients-carousel .case-logo{
     margin: 10px auto 6px; /* centers + keeps some bottom space */
   }
 .case-header .logo-container {
-display: block;       
+display: block;       /* removes inline spacing */
   margin: 0 auto;       
   max-height: 100%;     
   max-width: 100%;  
