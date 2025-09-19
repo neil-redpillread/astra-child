@@ -186,31 +186,27 @@ get_header(); ?>
           <div class="skills-columns">
             <!-- LEFT column -->
             <div class="skills-col">
-              <h4>Skills</h4>
-
               <div class="skill-bar" data-pct="60">
-                <span class="label">Off-page</span>
+                <span class="label-text">Off-page</span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
               </div>
 
               <div class="skill-bar" data-pct="75">
-                <span class="label">On-page</span>
+                <span class="label-text">On-page</span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
               </div>
 
               <div class="skill-bar" data-pct="55">
-                <span class="label">Technical</span>
+                <span class="label-text">Technical</span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
               </div>
             </div>
             <!-- RIGHT column -->
             <div class="skills-col">
-              <h4>Tools</h4>
-
-              <div class="skill-bar" data-pct="70">
+            <div class="skill-bar" data-pct="70">
                  <span class="label">
                   <img class="label-icon"
          src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/ahrefs-logo.webp"
@@ -226,7 +222,7 @@ get_header(); ?>
                   <img class="label-icon"
          src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/screaming-frog logo.webp"
          alt="screaming-frog logo">
-                <span class="label">Screaming Frog</span>
+                <span class="label-text">Screaming Frog</span>
                 </span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>

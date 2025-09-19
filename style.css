@@ -1127,8 +1127,8 @@ display: block;       /* removes inline spacing */
   flex-wrap: wrap;
   text-align: left;
 }
-.skills-columns > .skills-col > h4 {
-  margin-block-end: 1rem;   
+.skills-columns .label-text {
+font-weight: normal;
 }
 .skills-col {
   flex: 1;
