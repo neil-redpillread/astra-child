@@ -187,19 +187,19 @@ get_header(); ?>
             <!-- LEFT column -->
             <div class="skills-col">
               <div class="skill-bar" data-pct="60">
-                <span class="label-text">Off-page</span>
+                <span class="label-text">🔗Off-page</span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
               </div>
 
               <div class="skill-bar" data-pct="75">
-                <span class="label-text">On-page</span>
+                <span class="label-text">📄On-page</span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
               </div>
 
               <div class="skill-bar" data-pct="55">
-                <span class="label-text">Technical</span>
+                <span class="label-text">⚙️Technical</span>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
               </div>
