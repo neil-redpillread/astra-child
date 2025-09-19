@@ -187,45 +187,61 @@ get_header(); ?>
             <!-- LEFT column -->
             <div class="skills-col">
               <div class="skill-bar" data-pct="60">
+                 <div class="label">
                 <span class="label-text">🔗Off-page</span>
+                  </div>
+                  <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
 
               <div class="skill-bar" data-pct="75">
+                <div class="label">
                 <span class="label-text">📄On-page</span>
+                </div>
+                <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
 
               <div class="skill-bar" data-pct="55">
+                <div class="label">
                 <span class="label-text">⚙️Technical</span>
+                </div>
+                <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
             </div>
             <!-- RIGHT column -->
             <div class="skills-col">
             <div class="skill-bar" data-pct="70">
-                 <span class="label">
+                 <div class="label">
                   <img class="label-icon"
          src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/ahrefs-logo.webp"
          alt="ahrefs-logo">
                 <span class="label-text">Ahrefs</span>
-                </span>
+                </div>
+                <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
 
               <div class="skill-bar" data-pct="80">
-                <span class="label">
+                <div class="label">
                   <img class="label-icon"
          src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/screaming-frog logo.webp"
          alt="screaming-frog logo">
                 <span class="label-text">Screaming Frog</span>
-                </span>
+                </div>
+                <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
             </div>
           </div><!-- /.skills-columns -->

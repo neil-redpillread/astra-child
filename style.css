@@ -1126,6 +1126,8 @@ display: block;       /* removes inline spacing */
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: left;
+  align-items:flex-start;
+  min-height: 100%;
 }
 .skills-columns .label-text {
 font-weight: normal;
@@ -1135,44 +1137,35 @@ font-weight: normal;
   min-width: 250px;
 }
 .skill-bar{
-  --barW: 70%; 
-  --barH: 10px;
-  --gap: .5rem;
-  display: grid;
-  grid-template-columns: var(--barW) auto;
-  column-gap: .35rem;  
-  grid-template-rows: auto auto;  
-  row-gap: .25rem;
-  align-items: center;
-  margin: 20px 0;             
+   display: flex;
+  flex-direction: column;  /* stack items vertically */
+  align-items: flex-start; /* align text/icons to left */
+  margin: 20px 0;
+  gap: .25rem;             
 }
 .skill-bar .label {
- grid-column: 1 / -1; 
  display: flex;
- line-height: 1.2;
  align-items: center;
- gap: .5rem;
- margin-bottom: .25rem;
- font-weight: 600;
- grid-row: 1;
- grid-column: 1;
+  gap: .5rem;
+  font-weight: 600;
+}
+.skill-bar .bar-wrapper {
+  position: relative;
+  width: 100%;
 }
 .skill-bar .pct{
-  grid-column: 2;              
-  grid-row: 2;
-  justify-self: start;                 
+  position: absolute;
+  top: -1.2rem;   /* moves above the bar */
+  right: 0;       /* align to right end of bar */
   font-weight: 700;
   font-size: 14px;
   color: #24313f;
-  white-space: nowrap;
 }
 .skill-bar span {
-  display: block;
+  display: flex;
   font-weight: 600;
 }
 .skill-bar .bar {
-  grid-column: 1;
-  grid-row: 2;
   width: 100%;
   height: var(--barH, 10px);
   background: #e5e5e5;
