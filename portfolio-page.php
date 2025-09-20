@@ -261,6 +261,42 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              <div class="skill-bar" data-pct="80">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/semrush-logo.webp"
+         alt="semrush-logo">
+                <span class="label-text">Semrush</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="60">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/google-analytics-logo.webp"
+         alt="google-analytics-logo">
+                <span class="label-text">Google Analytics 4</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="60">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/google_search_console_logo.webp"
+         alt="search_console-logo">
+         <span class="label-text">Google Search Console</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
             </div>
           </div><!-- /.skills-columns -->
         </div><!-- /.skills-card -->
