@@ -508,6 +508,132 @@ get_header(); ?>
           </div><!-- /.skills-columns -->
         </div><!-- /.skills-card -->
       </div><!-- /.swiper-slide -->
+               <!-- Slide 4: Social Media Marketing -->
+ <div class="swiper-slide skills-slide">
+        <div class="skills-card">
+          <h3>Social Media Marketing</h3>
+          <div class="skills-columns">
+            <!-- LEFT column -->
+            <div class="skills-col">
+              <div class="skill-bar" data-pct="40">
+                 <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/instagram-logo.webp"
+         alt="instagram-logo">
+                <span class="label-text">Instagram</span>
+                  </div>
+                  <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
+              <div class="skill-bar" data-pct="50">
+                <div class="label">
+                <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/youtube-logo.webp"
+         alt="youtube-logo">
+                <span class="label-text">YouTube</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
+              <div class="skill-bar" data-pct="50">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/facebook-logo.webp"
+         alt="javascript-logo">
+                <span class="label-text">Facebook</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+               <div class="skill-bar" data-pct="50">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/linkedIn_logo.webp"
+         alt="linkedIn_logo">
+                <span class="label-text">LinkedIn</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="40">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/X_logo.webp"
+         alt="X_logo">
+                <span class="label-text">X (Twitter)</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+            </div>
+            <!-- RIGHT column -->
+            <div class="skills-col">
+            <div class="skill-bar" data-pct="30">
+                 <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/vs-code-logo.webp"
+         alt="vs-code-logo">
+                <span class="label-text">VS Code</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
+              <div class="skill-bar" data-pct="40">
+                <div class="label">
+                <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/local-logo.webp"
+         alt="local-logo">
+                <span class="label-text">Local</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="40">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/filezilla_logo.webp"
+         alt="filezilla_logo">
+                <span class="label-text">FileZilla</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="70">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/wordpress-logo.webp"
+         alt="wordpress-logo">
+                <span class="label-text">WordPress</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
+            </div>
+          </div><!-- /.skills-columns -->
+        </div><!-- /.skills-card -->
+      </div><!-- /.swiper-slide -->   
     </div><!-- /.swiper-wrapper -->
 
     <div class="swiper-button-prev skills-nav"></div>
