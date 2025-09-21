@@ -419,9 +419,9 @@ get_header(); ?>
           <div class="skills-columns">
             <!-- LEFT column -->
             <div class="skills-col">
-              <div class="skill-bar" data-pct="60">
+              <div class="skill-bar" data-pct="30">
                  <div class="label">
-                <span class="label-text">🎯 Campaign Strategy & Setup</span>
+                <span class="label-text">🌐 HTML</span>
                   </div>
                   <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
@@ -429,9 +429,9 @@ get_header(); ?>
                 </div>
               </div>
 
-              <div class="skill-bar" data-pct="75">
+              <div class="skill-bar" data-pct="50">
                 <div class="label">
-                <span class="label-text">✍️ Ad Copywriting</span>
+                <span class="label-text">🎨 CSS</span>
                 </div>
                 <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
@@ -439,27 +439,12 @@ get_header(); ?>
                 </div>
               </div>
 
-              <div class="skill-bar" data-pct="50">
+              <div class="skill-bar" data-pct="20">
                 <div class="label">
-                <span class="label-text">💰Budget & Bidding</span>
-                </div>
-                <div class="bar-wrapper">
-                <div class="bar"><div class="fill"></div></div>
-                <span class="pct"></span>
-                </div>
-              </div>
-              <div class="skill-bar" data-pct="50">
-                <div class="label">
-                <span class="label-text">🛠️Campaign Management</span>
-                </div>
-                <div class="bar-wrapper">
-                <div class="bar"><div class="fill"></div></div>
-                <span class="pct"></span>
-                </div>
-              </div>
-              <div class="skill-bar" data-pct="55">
-                <div class="label">
-                <span class="label-text">📈Analytics & Reporting</span>
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/javascriptlogo.webp"
+         alt="javascript-logo">
+                <span class="label-text">JavaScript</span>
                 </div>
                 <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
@@ -469,12 +454,12 @@ get_header(); ?>
             </div>
             <!-- RIGHT column -->
             <div class="skills-col">
-            <div class="skill-bar" data-pct="60">
+            <div class="skill-bar" data-pct="30">
                  <div class="label">
                   <img class="label-icon"
-         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/google-ads-logo.webp"
-         alt="google-ads-logo">
-                <span class="label-text">Google Ads</span>
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/vs-code-logo.webp"
+         alt="vs-code-logo">
+                <span class="label-text">VS Code</span>
                 </div>
                 <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
@@ -482,33 +467,36 @@ get_header(); ?>
                 </div>
               </div>
 
-              <div class="skill-bar" data-pct="75">
+              <div class="skill-bar" data-pct="40">
                 <div class="label">
-                <span class="label-text">🔑Google Keyword Planner</span>
+                <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/local-logo.webp"
+         alt="local-logo">
+                <span class="label-text">Local</span>
                 </div>
                 <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
                 </div>
               </div>
-              <div class="skill-bar" data-pct="50">
+              <div class="skill-bar" data-pct="40">
                 <div class="label">
                   <img class="label-icon"
-         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/tag_manager-logo.webp"
-         alt="tag_manager-logo">
-                <span class="label-text">Google Tag Manager</span>
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/filezilla_logo.webp"
+         alt="filezilla_logo">
+                <span class="label-text">FileZilla</span>
                 </div>
                 <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
                 </div>
               </div>
-              <div class="skill-bar" data-pct="50">
+              <div class="skill-bar" data-pct="70">
                 <div class="label">
                   <img class="label-icon"
-         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/looker_studio-logo.webp"
-         alt="google-analytics-logo">
-                <span class="label-text">Looker Studio</span>
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/wordpress-logo.webp"
+         alt="wordpress-logo">
+                <span class="label-text">WordPress</span>
                 </div>
                 <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
