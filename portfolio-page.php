@@ -174,6 +174,7 @@ get_header(); ?>
 </section>
 <section class="skills-carousel-section">
   <h2 class="skills-section-title">Skills and Tools</h2>
+  <p>This section highlights the Digital Marketing skills I’ve acquired over time, showcasing my level of expertise and proficiency in key tools that I regularly use to implement and optimize marketing strategies.</p>
 
   <div class="swiper skills-carousel">
     <div class="swiper-wrapper">

@@ -1088,6 +1088,11 @@ display: block;       /* removes inline spacing */
   background: #ffffff;
   text-align: center;
 }
+.skills-carousel-section p {
+  font-size: 1.125rem;
+  max-width: 1000px;
+  margin: 0 auto 30px;
+}
 .skills-section-title {
   font-size: 3rem;
   margin-bottom: 2rem;
