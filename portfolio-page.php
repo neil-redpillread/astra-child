@@ -581,7 +581,110 @@ get_header(); ?>
            
           </div><!-- /.skills-columns -->
         </div><!-- /.skills-card -->
-      </div><!-- /.swiper-slide -->   
+      </div><!-- /.swiper-slide -->
+      
+      <!-- Slide 5: Content Creation Toolbox -->
+ <div class="swiper-slide skills-slide">
+        <div class="skills-card">
+          <h3>Content Creation Toolbox</h3>
+          <div class="skills-columns">
+            <!-- LEFT column -->
+            <div class="skills-col">
+              <div class="skill-bar" data-pct="50">
+                 <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/adobe_illustrator-logo.webp"
+         alt="adobe_illustrator-logo">
+                <span class="label-text">Adobe Illustrator</span>
+                  </div>
+                  <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
+              <div class="skill-bar" data-pct="40">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/Canva-Logo.webp"
+         alt="Canva-Logo">
+                <span class="label-text">Canva</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
+              <div class="skill-bar" data-pct="20">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/Adobe_Photoshop_logo.webp"
+         alt="Adobe_Photoshop_logo">
+                <span class="label-text">Photoshop</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+            </div>
+            <!-- RIGHT column -->
+            <div class="skills-col">
+            <div class="skill-bar" data-pct="45">
+                 <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/CapCut_logo.webp"
+         alt="CapCut_logo">
+                <span class="label-text">CapCut</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
+              <div class="skill-bar" data-pct="60">
+                <div class="label">
+                <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/Wondershare_filmora_logo.webp"
+         alt="Wondershare_filmora_logo">
+                <span class="label-text">Filmora</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="50">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/audacity_logo.webp"
+         alt="audacity_logo">
+                <span class="label-text">Audacity</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="40">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/adobe_after_effects_logo.webp"
+         alt="adobe_after_effects_logo">
+                <span class="label-text">Adobe After Effects</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
+            </div>
+          </div><!-- /.skills-columns -->
+        </div><!-- /.skills-card -->
+      </div><!-- /.swiper-slide -->
     </div><!-- /.swiper-wrapper -->
 
     <div class="swiper-button-prev skills-nav"></div>
