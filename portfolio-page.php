@@ -182,7 +182,7 @@ get_header(); ?>
       <!-- Slide 1: SEO -->
       <div class="swiper-slide skills-slide">
         <div class="skills-card">
-          <h3>SEO</h3>
+          <h3>Search Engine Optimization (SEO)</h3>
 
           <div class="skills-columns">
             <!-- LEFT column -->
@@ -304,45 +304,109 @@ get_header(); ?>
       </div><!-- /.swiper-slide -->
              
        <!-- Slide 2: Search Engine Marketing -->
-      <div class="swiper-slide skills-slide">
+ <div class="swiper-slide skills-slide">
         <div class="skills-card">
-          <h3>Search Engine Marketing</h3>
-
+          <h3>Search Engine Marketing (SEM)</h3>
           <div class="skills-columns">
+            <!-- LEFT column -->
             <div class="skills-col">
-              <h4>Skills</h4>
-
-              <div class="skill-bar" data-pct="90">
-                <span class="label">Campaign setup</span>
+              <div class="skill-bar" data-pct="60">
+                 <div class="label">
+                <span class="label-text">🎯 Campaign Strategy & Setup</span>
+                  </div>
+                  <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
 
-              <div class="skill-bar" data-pct="90">
-                <span class="label">Optimization</span>
+              <div class="skill-bar" data-pct="75">
+                <div class="label">
+                <span class="label-text">✍️ Ad Copywriting</span>
+                </div>
+                <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
 
-              <div class="skill-bar" data-pct="80">
-                <span class="label">Reporting</span>
+              <div class="skill-bar" data-pct="50">
+                <div class="label">
+                <span class="label-text">💰Budget & Bidding</span>
+                </div>
+                <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="50">
+                <div class="label">
+                <span class="label-text">🛠️Campaign Management</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="55">
+                <div class="label">
+                <span class="label-text">📈Analytics & Reporting</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
               </div>
             </div>
+            <!-- RIGHT column -->
             <div class="skills-col">
-              <h4>Tools</h4>
-              <div class="skill-bar" data-pct="80">
-                <span class="label">Google Ads</span>
+            <div class="skill-bar" data-pct="60">
+                 <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/google-ads-logo.webp"
+         alt="google-ads-logo">
+                <span class="label-text">Google Ads</span>
+                </div>
+                <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
 
-              <div class="skill-bar" data-pct="80">
-                <span class="label">GA4</span>
+              <div class="skill-bar" data-pct="75">
+                <div class="label">
+                <span class="label-text">🔑Google Keyword Planner</span>
+                </div>
+                <div class="bar-wrapper">
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
+                </div>
               </div>
+              <div class="skill-bar" data-pct="50">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/tag_manager-logo.webp"
+         alt="tag_manager-logo">
+                <span class="label-text">Google Tag Manager</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+              <div class="skill-bar" data-pct="50">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/looker_studio-logo.webp"
+         alt="google-analytics-logo">
+                <span class="label-text">Looker Studio</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
+
             </div>
           </div><!-- /.skills-columns -->
         </div><!-- /.skills-card -->
