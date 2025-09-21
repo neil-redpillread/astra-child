@@ -578,59 +578,7 @@ get_header(); ?>
                 </div>
               </div>
             </div>
-            <!-- RIGHT column -->
-            <div class="skills-col">
-            <div class="skill-bar" data-pct="30">
-                 <div class="label">
-                  <img class="label-icon"
-         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/vs-code-logo.webp"
-         alt="vs-code-logo">
-                <span class="label-text">VS Code</span>
-                </div>
-                <div class="bar-wrapper">
-                <div class="bar"><div class="fill"></div></div>
-                <span class="pct"></span>
-                </div>
-              </div>
-
-              <div class="skill-bar" data-pct="40">
-                <div class="label">
-                <img class="label-icon"
-         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/local-logo.webp"
-         alt="local-logo">
-                <span class="label-text">Local</span>
-                </div>
-                <div class="bar-wrapper">
-                <div class="bar"><div class="fill"></div></div>
-                <span class="pct"></span>
-                </div>
-              </div>
-              <div class="skill-bar" data-pct="40">
-                <div class="label">
-                  <img class="label-icon"
-         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/filezilla_logo.webp"
-         alt="filezilla_logo">
-                <span class="label-text">FileZilla</span>
-                </div>
-                <div class="bar-wrapper">
-                <div class="bar"><div class="fill"></div></div>
-                <span class="pct"></span>
-                </div>
-              </div>
-              <div class="skill-bar" data-pct="70">
-                <div class="label">
-                  <img class="label-icon"
-         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/wordpress-logo.webp"
-         alt="wordpress-logo">
-                <span class="label-text">WordPress</span>
-                </div>
-                <div class="bar-wrapper">
-                <div class="bar"><div class="fill"></div></div>
-                <span class="pct"></span>
-                </div>
-              </div>
-
-            </div>
+           
           </div><!-- /.skills-columns -->
         </div><!-- /.skills-card -->
       </div><!-- /.swiper-slide -->   
