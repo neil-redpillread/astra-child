@@ -1216,6 +1216,11 @@ margin-bottom: .25rem;
   .skills-section-title {
     font-size: 2rem;
     margin-bottom: 2rem;
+  }
+  .skills-columns {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
 }
 }
 @media (max-width: 380px) {
