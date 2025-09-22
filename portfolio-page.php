@@ -327,6 +327,7 @@ get_header(); ?>
           <div class="skills-columns">
             <!-- LEFT column -->
             <div class="skills-col">
+              <div class="tool-item">
               <div class="skill-bar" data-pct="60">
                  <div class="label">
                 <span class="label-text">🎯 Campaign Strategy & Setup</span>
@@ -336,7 +337,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+              </div>
+               <div class="tool-item">
               <div class="skill-bar" data-pct="75">
                 <div class="label">
                 <span class="label-text">✍️ Ad Copywriting</span>
@@ -346,7 +348,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+              </div>
+              <div class="tool-item">
               <div class="skill-bar" data-pct="50">
                 <div class="label">
                 <span class="label-text">💰Budget & Bidding</span>
@@ -356,6 +359,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item">
               <div class="skill-bar" data-pct="50">
                 <div class="label">
                 <span class="label-text">🛠️Campaign Management</span>
@@ -365,6 +370,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item">
               <div class="skill-bar" data-pct="55">
                 <div class="label">
                 <span class="label-text">📈Analytics & Reporting</span>
@@ -374,9 +381,11 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
             </div>
             <!-- RIGHT column -->
             <div class="skills-col">
+            <div class="tool-item mobile-show">
             <div class="skill-bar" data-pct="60">
                  <div class="label">
                   <img class="label-icon"
@@ -389,7 +398,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="75">
                 <div class="label">
                 <span class="label-text">🔑Google Keyword Planner</span>
@@ -399,6 +409,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="50">
                 <div class="label">
                   <img class="label-icon"
@@ -411,6 +423,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="50">
                 <div class="label">
                   <img class="label-icon"
@@ -422,6 +436,7 @@ get_header(); ?>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
                 </div>
+              </div>
               </div>
 
             </div>
@@ -436,6 +451,7 @@ get_header(); ?>
           <div class="skills-columns">
             <!-- LEFT column -->
             <div class="skills-col">
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="30">
                  <div class="label">
                 <span class="label-text">🌐 HTML</span>
@@ -445,7 +461,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="50">
                 <div class="label">
                 <span class="label-text">🎨 CSS</span>
@@ -455,7 +472,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="20">
                 <div class="label">
                   <img class="label-icon"
@@ -468,9 +486,11 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
             </div>
             <!-- RIGHT column -->
             <div class="skills-col">
+            <div class="tool-item mobile-show">
             <div class="skill-bar" data-pct="30">
                  <div class="label">
                   <img class="label-icon"
@@ -483,7 +503,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+              </div>
+              <div class="tool-item">
               <div class="skill-bar" data-pct="40">
                 <div class="label">
                 <img class="label-icon"
@@ -496,6 +517,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item">
               <div class="skill-bar" data-pct="40">
                 <div class="label">
                   <img class="label-icon"
@@ -508,6 +531,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="70">
                 <div class="label">
                   <img class="label-icon"
@@ -520,6 +545,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item">
         <div class="skill-bar" data-pct="40">
                 <div class="label">
                   <img class="label-icon"
@@ -531,6 +558,7 @@ get_header(); ?>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
                 </div>
+              </div>
               </div>
             </div>
           </div><!-- /.skills-columns -->
