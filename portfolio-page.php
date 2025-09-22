@@ -503,7 +503,18 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+        <div class="skill-bar" data-pct="40">
+                <div class="label">
+                  <img class="label-icon"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/github-logo.webp"
+         alt="wordpress-logo">
+                <span class="label-text">GitHub</span>
+                </div>
+                <div class="bar-wrapper">
+                <div class="bar"><div class="fill"></div></div>
+                <span class="pct"></span>
+                </div>
+              </div>
             </div>
           </div><!-- /.skills-columns -->
         </div><!-- /.skills-card -->
