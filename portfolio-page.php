@@ -782,7 +782,7 @@ get_header(); ?>
         </div>
         <div class="certificate-info">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/semrush-logo.webp" class="course-logo" alt="semrush-logo">
-          <div class="course-name">SEO Crash Course with Brian Dean</div>
+          <div class="course-name"><a href="https://static.semrush.com/academy/certificates/716db3bdf0/neil-jose_2.pdf" target="_blank " rel="nofollow noopener noreferrer"> SEO Crash Course with Brian Dean</a></div>
         </div>
       </div>
       <div class="certificate-item">
@@ -791,7 +791,7 @@ get_header(); ?>
         </div>
         <div class="certificate-info">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/semrush-logo.webp" class="course-logo" alt="semrush-logo">
-          <div class="course-name">Backlink Management Course</div>
+          <div class="course-name"><a href="https://static.semrush.com/academy/certificates/c538003413/neil-jose_2.pdf" target="_blank " rel="nofollow noopener noreferrer"> Backlink Management Course</a></div>
         </div>
       </div>
     <div class="certificate-item">
@@ -800,7 +800,7 @@ get_header(); ?>
         </div>
         <div class="certificate-info">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/google-logo.webp" class="course-logo" alt="google-logo">
-          <div class="course-name">Google Ads Display Certification</div>
+          <div class="course-name"><a href="https://drive.google.com/file/d/1xMsAUVh07yDYKLpMzC3F7SovxEbRrwA1/view?pli=1" target="_blank " rel="nofollow noopener noreferrer"> Google Ads Display Certification</a></div>
         </div>
       </div>
       <div class="certificate-item">
@@ -809,7 +809,7 @@ get_header(); ?>
         </div>
         <div class="certificate-info">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/google-logo.webp" class="course-logo" alt="google-logo">
-          <div class="course-name">Google Ads Search Certification</div>
+          <div class="course-name"><a href="https://drive.google.com/file/d/11tF__NU9LhzmEl-QSqIp4xb1eBu-Akay/view" target="_blank " rel="nofollow noopener noreferrer"> Google Ads Search Certification</a></div>
         </div>
       </div>
       <div class="certificate-item">
@@ -818,16 +818,43 @@ get_header(); ?>
         </div>
         <div class="certificate-info">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/uc_davis_logo.webp" class="course-logo" alt="uc_davis_logo">
-          <div class="course-name">The Strategy of Content Marketing</div>
+          <div class="course-name"><a href="https://drive.google.com/file/d/1p5kHLIdMkaiNwdfqFq2TbZGkBa6CCwCU/view" target="_blank " rel="nofollow noopener noreferrer"> The Strategy of Content Marketing</a></div>
         </div>
       </div>
       <div class="certificate-item">
         <div class="photo-frame">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/content-marketing-certificate.webp" alt="content-marketing-certificat">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/content-strategy-certificate.webp" alt="business-english-certificate">
         </div>
         <div class="certificate-info">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/uc_davis_logo.webp" class="course-logo" alt="uc_davis_logo">
-          <div class="course-name">The Strategy of Content Marketing</div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/Washington_uni_logo.webp" class="course-logo" alt="Washington_uni_logo">
+          <div class="course-name"><a href="https://drive.google.com/file/d/1-efnIpN7KbpxhoM3TT5q7Dx_5bPSiynB/view" target="_blank " rel="nofollow noopener noreferrer"> Business English: Networking</a></div>
+        </div>
+      </div>
+      <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/excel-certificate-training.webp" alt="excel-certificate-training">
+        </div>
+        <div class="certificate-info">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/linkedIn_logo.webp" class="course-logo" alt="linkedIn_logo">
+          <div class="course-name"><a href="https://drive.google.com/file/d/1iS6JM-F3XTaBBZUlQk-ev-wnsiM11bcY/view" target="_blank " rel="nofollow noopener noreferrer">Excel Statistics Essential Training</a></div>
+        </div>
+      </div>
+      <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/statistics-foundation-certificate.webp" alt="statistics-foundation-certificate">
+        </div>
+        <div class="certificate-info">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/linkedIn_logo.webp" class="course-logo" alt="linkedIn_logo">
+          <div class="course-name"><a href="https://drive.google.com/file/d/18JCDCqBL9iqMFlkTjR_8mIwBZ47M894W/view" target="_blank " rel="nofollow noopener noreferrer">Statistics Foundations</a></div>
+        </div>
+      </div>
+      <div class="certificate-item">
+        <div class="photo-frame">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/certificates/google-analytics-basic-course-cerficate.webp" alt="google-analytics-basic-course-cerficate">
+        </div>
+        <div class="certificate-info">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/Coursera-Logo.webp" class="course-logo" alt="Coursera-Logo">
+          <div class="course-name"><a href="https://drive.google.com/file/d/1_gRt3skVBXKAc5LDbB7ZacSlhEkMih6U/view" target="_blank " rel="nofollow noopener noreferrer">Google Analytics Basics</a></div>
         </div>
       </div>
       <!-- Add more certificate items similarly -->
