@@ -198,7 +198,7 @@ get_header(); ?>
                 </div>
               </div>
               </div>
-
+              <div class="tool-item">
               <div class="skill-bar" data-pct="75">
                 <div class="label">
                 <span class="label-text">📄On-page</span>
@@ -208,7 +208,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+              </div>
+               <div class="tool-item">
               <div class="skill-bar" data-pct="55">
                 <div class="label">
                 <span class="label-text">⚙️Technical</span>
@@ -218,6 +219,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item">
               <div class="skill-bar" data-pct="50">
                 <div class="label">
                 <span class="label-text">🏪Local SEO</span>
@@ -227,7 +230,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-    
+              </div>
+              <div class="tool-item">
               <div class="skill-bar" data-pct="55">
                 <div class="label">
                 <span class="label-text">📈Analytics and Reporting</span>
@@ -237,9 +241,11 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
             </div>
             <!-- RIGHT column -->
             <div class="skills-col">
+            <div class="tool-item mobile-show">
             <div class="skill-bar" data-pct="70">
                  <div class="label">
                   <img class="label-icon"
@@ -252,7 +258,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
-
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="80">
                 <div class="label">
                   <img class="label-icon"
@@ -265,6 +272,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="80">
                 <div class="label">
                   <img class="label-icon"
@@ -277,6 +286,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="60">
                 <div class="label">
                   <img class="label-icon"
@@ -289,6 +300,8 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+              </div>
+              <div class="tool-item mobile-show">
               <div class="skill-bar" data-pct="60">
                 <div class="label">
                   <img class="label-icon"
@@ -300,6 +313,7 @@ get_header(); ?>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
                 </div>
+              </div>
               </div>
             </div>
           </div><!-- /.skills-columns -->

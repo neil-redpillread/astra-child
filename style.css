@@ -1222,11 +1222,11 @@ margin-bottom: .25rem;
   align-items: stretch;
   gap: 0;
 }
-.tool-item {
+  .skills-col:has(.tool-item:not(.mobile-show)) {
     display: none;
   }
-  .tool-item.mobile-show {
-    display: block; 
+  .skills-col:has(.tool-item.mobile-show) {
+    display: block;
   }
 }
 @media (max-width: 380px) {
