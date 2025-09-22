@@ -1206,6 +1206,9 @@ margin-bottom: .25rem;
   object-fit: contain;
 } 
 .skill-bar .label-text{ white-space: nowrap; } 
+.mobile-disclaimer {
+display: none;
+}
 
 @media (max-width: 768px) {
   .skills-carousel .swiper-button-prev,
@@ -1233,6 +1236,10 @@ margin-bottom: .25rem;
   }
   .skills-carousel-section p {
   text-align: center;
+  }
+  .skills-carousel-section .mobile-disclaimer {
+    display: block;
+    font-size: 1rem;
   }
 }
 @media (max-width: 380px) {
