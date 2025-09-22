@@ -1231,6 +1231,9 @@ margin-bottom: .25rem;
    .skills-col:not(:has(.tool-item.mobile-show)) {
     display: none;
   }
+  .skills-carousel-section p {
+  text-align: center;
+  }
 }
 @media (max-width: 380px) {
    .skills-carousel .swiper-slide{
