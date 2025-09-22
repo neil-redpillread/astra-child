@@ -187,6 +187,7 @@ get_header(); ?>
           <div class="skills-columns">
             <!-- LEFT column -->
             <div class="skills-col">
+              <div class="tool-item">
               <div class="skill-bar" data-pct="90">
                  <div class="label">
                 <span class="label-text">🔗Off-page</span>
@@ -195,6 +196,7 @@ get_header(); ?>
                 <div class="bar"><div class="fill"></div></div>
                 <span class="pct"></span>
                 </div>
+              </div>
               </div>
 
               <div class="skill-bar" data-pct="75">
@@ -225,6 +227,7 @@ get_header(); ?>
                 <span class="pct"></span>
                 </div>
               </div>
+    
               <div class="skill-bar" data-pct="55">
                 <div class="label">
                 <span class="label-text">📈Analytics and Reporting</span>
