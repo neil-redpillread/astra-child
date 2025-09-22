@@ -873,16 +873,16 @@ get_header(); ?>
       <!-- Slide 1 -->
       <div class="swiper-slide">
         <div class="testimonial-card">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headshots/test1.webp" alt="Krystina K" class="testimonial-photo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headshots/kristin-Wise-headshot.webp" alt="kristin-Wise-headshot" class="testimonial-photo">
           <blockquote class="testimonial-quote">“East or west, Neil is the best”</blockquote>
-          <p class="testimonial-author">— Krystina K<br><span class="designation">Chairman, DSC</span></p>
+          <p class="testimonial-author">— Kristin Wise<br><span class="designation">Digital Project Manager, Digital Strategy Consultants</span></p>
         </div>
       </div>
       <div class="swiper-slide">
         <div class="testimonial-card">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headshots/test1.webp" alt="Krystina K" class="testimonial-photo">
           <blockquote class="testimonial-quote">“East or test, Neil is the best”</blockquote>
-          <p class="testimonial-author">— Krystina K<br><span class="designation">Chairman, DSC</span></p>
+          <p class="testimonial-author">— Kristin Wise<br><span class="designation">Chairman, DSC</span></p>
         </div>
       </div>
       <!-- Add more slides like this -->
