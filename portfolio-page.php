@@ -173,7 +173,7 @@ get_header(); ?>
   </div>
 </section>
 <section class="skills-carousel-section">
-  <h2 class="skills-section-title">Skills and Tools</h2>
+  <h2 id="skills-tools" class="skills-section-title">Skills and Tools</h2>
   <p>This section highlights the Digital Marketing skills I’ve acquired over time, showcasing my level of expertise and proficiency in key tools that I regularly use to implement and optimize marketing strategies.</p>
   <p class="mobile-disclaimer">
     ℹ️ <em>To view the full list of tools and skills, please visit this section on desktop.</em></p>
@@ -766,7 +766,7 @@ get_header(); ?>
     <div class="swiper-button-prev skills-nav"></div>
     <div class="swiper-button-next skills-nav"></div>
   </div><!-- /.swiper -->
-  <section class="certifications-section">
+  <section id="certifications" class="certifications-section">
   <h2>Certifications</h2>
   <p>
     Staying updated with industry trends is essential. That’s why I continually invest in learning and sharpening my skills. Below is a catalog of certifications I’ve earned along the way.
