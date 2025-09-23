@@ -52,3 +52,11 @@ function load_swiper_assets() {
 }
 add_action('wp_enqueue_scripts', 'load_swiper_assets');
 
+function wp_redirect_under_construction_pages() {
+    $redirect_pages = ['blog', 'services', 'consultation'];
+    if ( is_page($redirect_pages) ) {
+        wp_redirect( home_url('/under-construction/'), 302 );
+        exit;
+    }
+}
+add_action('template_redirect', 'wp_redirect_under_construction_pages');
