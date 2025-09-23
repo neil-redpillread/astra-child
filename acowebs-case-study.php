@@ -77,7 +77,7 @@ get_header(); ?>
   <div class="cta-content">
   <p><em>Grow your small business online with proven SEO strategies. Book a quick call today to learn how my <a href="https://marketing.redpillread.com/services/">professional SEO services</a> can scale your business.</em></p>
   </div>
-  <a href="/contact" class="cta-button">Book a Consultation</a>
+  <a href="/consultation/" class="cta-button">Book a Consultation</a>
 </section>
 </main>
 

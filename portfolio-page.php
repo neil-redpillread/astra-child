@@ -7,8 +7,8 @@ get_header(); ?>
     <div class="portfolio-hero-content">
       <h1>Your Personal SEO Specialist</h1>
       <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/O7il3R-scF4" title="YouTube video" allowfullscreen></iframe>
-      </div>
+  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/stock-images/video-placeholder.webp" alt="Video coming soon" class="video-placeholder">
+</div>
       <div class="text-content">
         <p>
         Hi, I’m Neil Jose — an SEO service provider with over 5 years of hands-on experience in digital marketing, alongside a master’s degree in digital marketing from<a href="https://www.tcd.ie " target="_blank " rel="nofollow noopener noreferrer "> Trinity College Dublin.</a> By hiring me as your dedicated SEO strategist, you give your business the strongest opportunity to rank on Google’s first page. Click the video to learn more about me.
@@ -659,7 +659,7 @@ get_header(); ?>
               <div class="skill-bar" data-pct="50">
                  <div class="label">
                   <img class="label-icon"
-         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/adobe_illustrator-logo.webp"
+         src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logos/Adobe_Illustrator-logo.webp"
          alt="adobe_illustrator-logo">
                 <span class="label-text">Adobe Illustrator</span>
                   </div>
@@ -897,7 +897,7 @@ get_header(); ?>
     <p>
     Thanks for stopping by! Whether you're a small business looking to boost your online presence or you're interested in pro SEO services to climb the Google rankings, I’d love to hear from you. Even if you just want to connect or network, my inbox is always open.
     </p>
-    <a href="#services" class="cta-button">Explore Services</a>
+    <a href="/services/" class="cta-button">Explore Services</a>
   </div>
 
   <div class="contact-right" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/stock-images/notepad-image.webp');">
@@ -906,9 +906,9 @@ get_header(); ?>
       <a href="https://www.linkedin.com/in/neil-jose/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/linkedIn_logo.webp" alt="LinkedIn logo" /></a>
       <a href="mailto:redpillread@gmail.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/gmail-logo.webp" alt="Gmail logo" /></a>
       <a href="https://github.com/neil-redpillread"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/github-logo.webp" alt="GitHub" /></a>
-      <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/youtube-logo.webp" alt="YouTube-logo" /></a>
+      <a href="/under-construction/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/youtube-logo.webp" alt="YouTube-logo" /></a>
       <a href="https://www.instagram.com/neiljose4real/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/instagram-logo.webp" alt="Instagram" /></a>
-      <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/X_logo.webp" alt="x-logo" /></a>
+      <a href="/under-construction/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos/X_logo.webp" alt="x-logo" /></a>
     </div>
 
     <div class="cv-download">

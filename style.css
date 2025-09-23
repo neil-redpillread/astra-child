@@ -1970,6 +1970,52 @@ background: #e0eaff;
 .gpttraining-case-study .content-box {
 background: #dfe8fd;
 }
+.under-construction-wrapper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+body.page-template-under-construction #page .site-content {
+  background-color: #000616;
+}
+.under-construction-box {
+  background-color: rgba(0, 0, 0, 0.75); /* dark semi-transparent */
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 2rem auto; /* center horizontally */
+  color: #fff; /* make text white for readability */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* optional depth */
+}
+.under-construction-box h1 {
+color: #ffffff;
+}
+.under-construction-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #ff0000;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: normal;
+}
+.under-construction-button:hover {
+  background-color: #cc0000;
+  color: #fff;
+}
+.video-placeholder {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  display: block;
+}
 
 
 
