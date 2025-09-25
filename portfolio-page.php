@@ -912,7 +912,7 @@ get_header(); ?>
     </div>
 
     <div class="cv-download">
-      <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/downloadables/neil-Jose-digital-marketing-cv.pdf" download>📄 CV Download Link</a>
+      <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/downloadables/Neil Jose -  CV.pdf" download>📄 CV Download Link</a>
     </div>
 
     <div class="contact-number">
