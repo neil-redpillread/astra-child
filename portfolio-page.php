@@ -7,7 +7,7 @@ get_header(); ?>
     <div class="portfolio-hero-content">
       <h1>Your Personal SEO Specialist</h1>
       <div class="video-wrapper">
-  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/stock-images/video-placeholder.webp" alt="Video coming soon" class="video-placeholder">
+   <iframe width="100%" height="300" src="https://www.youtube.com/embed/mCD51Qv7UpI" frameborder="0" allowfullscreen></iframe>
 </div>
       <div class="text-content">
         <p>
