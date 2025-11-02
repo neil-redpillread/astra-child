@@ -11,7 +11,7 @@ get_header();
 <div class="blog-filters">
     <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>" class="active">All Posts</a>
     <?php
-        $categories = get_categories(['orderby' => 'name']);
+        $categories = get_categories(['orderby' => 'name','hide_empty' => false]);
         foreach ($categories as $category) {
             echo '<a href="' . get_category_link($category->term_id) . '">' . esc_html($category->name) . '</a>';
         }
