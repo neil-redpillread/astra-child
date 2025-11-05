@@ -22,7 +22,7 @@
 
                 <!-- AUTHOR, DATE, READ TIME -->
                 <div class="post-meta">
-                    <span class="author">By Neil Joseph</span>
+                    <span class="author">By Neil Jose</span>
                     <span class="separator">|</span>
                     <span class="date"><?php echo get_the_date(); ?></span>
                     <span class="separator">|</span>
