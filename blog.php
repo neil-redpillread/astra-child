@@ -31,14 +31,20 @@ get_header();
     if ($query->have_posts()) :
         while ($query->have_posts()) : $query->the_post(); ?>
             <div class="blog-post">
-    <a href="<?php the_permalink(); ?>">
-        <?php if (has_post_thumbnail()) : ?>
-            <?php the_post_thumbnail(); ?>
-        <?php endif; ?>
-        <h3><?php the_title(); ?></h3>
-        <p><?php the_excerpt(); ?></p>
+    <a href="<?php the_permalink(); ?>" class="blog-post-link">
+        <div class="blog-post-thumbnail">
+            <?php if (has_post_thumbnail()) {
+                the_post_thumbnail('medium_large'); // you can adjust the size
+            } else {
+                echo '<img src="' . get_stylesheet_directory_uri() . '/assets/images/placeholder.jpg" alt="Placeholder">';
+            } ?>
+        </div>
+        <div class="blog-post-content">
+            <h3 class="blog-post-title"><?php the_title(); ?></h3>
+            <p class="blog-post-date"><?php echo get_the_date(); ?></p>
+        </div>
     </a>
-    </div>
+</div>
         <?php endwhile;
     else :
         echo '<p>No posts found.</p>';
