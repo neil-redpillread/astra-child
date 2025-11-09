@@ -2158,7 +2158,24 @@ transform: translateY(-5px);
     color: #888;
     margin-top: auto;
 }
-
+.filter-button {
+  background-color: #f9f9ff;
+  color: #0d0c22;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px; /* Soft pill shape like your competitor */
+  box-shadow: 0 4px 12px 7px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button[aria-pressed="true"] {
+  background-color: #cc0000;  /* Purple shade like the selected one */
+  color: white;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
   
 
 
