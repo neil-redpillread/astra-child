@@ -9,46 +9,40 @@ get_header();
 </div>
 
 <div class="blog-filters">
-    <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>" class="active">All Posts</a>
+    <button class="filter-button" data-cat="0">All Posts</button>
     <?php
-        $categories = get_categories(['orderby' => 'name','hide_empty' => false]);
-        foreach ($categories as $category) {
-            echo '<a href="' . get_category_link($category->term_id) . '">' . esc_html($category->name) . '</a>';
-        }
+    $categories = get_categories(array(
+        'orderby' => 'name',
+        'hide_empty' => false
+    ));
+    foreach ($categories as $category) {
+        echo '<button class="filter-button" data-cat="' . esc_attr($category->term_id) . '">' . esc_html($category->name) . '</button>';
+    }
     ?>
 </div>
 
 <div class="blog-grid">
     <?php
-    $args = [
+    $args = array(
         'post_type' => 'post',
         'posts_per_page' => 9,
-    ];
+    );
     $query = new WP_Query($args);
-
     if ($query->have_posts()) :
         while ($query->have_posts()) : $query->the_post(); ?>
             <div class="blog-post">
                 <?php if (has_post_thumbnail()) : ?>
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_post_thumbnail('medium_large'); ?>
-                    </a>
+                    <?php the_post_thumbnail(); ?>
                 <?php endif; ?>
-
-                <?php
-                $category = get_the_category();
-                if ($category) {
-                    echo '<span class="category">' . esc_html($category[0]->name) . '</span>';
-                }
-                ?>
-                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                <div class="date"><?php echo get_the_date(); ?></div>
+                <h3><?php the_title(); ?></h3>
+                <p><?php the_excerpt(); ?></p>
             </div>
         <?php endwhile;
-        wp_reset_postdata();
-    else : ?>
-        <p>No posts found.</p>
-    <?php endif; ?>
+    else :
+        echo '<p>No posts found.</p>';
+    endif;
+    wp_reset_postdata();
+    ?>
 </div>
 
 <?php get_footer(); ?>
