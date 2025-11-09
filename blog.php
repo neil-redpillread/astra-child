@@ -31,12 +31,14 @@ get_header();
     if ($query->have_posts()) :
         while ($query->have_posts()) : $query->the_post(); ?>
             <div class="blog-post">
-                <?php if (has_post_thumbnail()) : ?>
-                    <?php the_post_thumbnail(); ?>
-                <?php endif; ?>
-                <h3><?php the_title(); ?></h3>
-                <p><?php the_excerpt(); ?></p>
-            </div>
+    <a href="<?php the_permalink(); ?>">
+        <?php if (has_post_thumbnail()) : ?>
+            <?php the_post_thumbnail(); ?>
+        <?php endif; ?>
+        <h3><?php the_title(); ?></h3>
+        <p><?php the_excerpt(); ?></p>
+    </a>
+    </div>
         <?php endwhile;
     else :
         echo '<p>No posts found.</p>';
