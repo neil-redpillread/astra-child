@@ -2193,7 +2193,22 @@ transform: translateY(-5px);
   min-width: 300px;
 }
 .hero-left.slide-left {
+animation-delay: 0.1s;
 max-width:550px;
+}
+.hero-right.slide-right {
+animation-delay: 0.25s;
+}
+
+.slide-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+.slide-right {
+  opacity: 0;
+  transform: translateX(40px);
+  animation: slideInRight 0.8s ease-out forwards;
 }
 .hero-left.slide-left p {
   font-size: 1.125rem;
@@ -2251,6 +2266,27 @@ max-width:550px;
 .seo-audit-button:hover {
   background-color: #cc0000;
    color: #fff;
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 
