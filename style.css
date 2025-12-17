@@ -2183,6 +2183,7 @@ transform: translateY(-5px);
   justify-content: space-between;
   align-items: flex-start;
   padding: 4rem 2rem;
+  padding-left: 0;
 }
 
 /* Left + right */
@@ -2190,6 +2191,14 @@ transform: translateY(-5px);
 .hero-right {
   flex: 1;
   min-width: 300px;
+}
+.hero-left.slide-left {
+max-width:550px;
+}
+.hero-left.slide-left p {
+  font-size: 1.125rem;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 2rem;
 }
 
 /* Service styling (unchanged) */
