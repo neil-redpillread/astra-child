@@ -13,14 +13,14 @@ get_header();
   <div class="hero-right slide-right">
     <h2>Pick the service that matches your goals</h2>
     <div class="services-grid">
-      <div class="service-box">🔍 Technical SEO</div>
+      <div class="service-box">⚙️ Technical SEO</div>
       <div class="service-box">📄 On-Page Optimization</div>
       <div class="service-box">🔗 Off-Page SEO</div>
       <div class="service-box">✍️ Content SEO</div>
-      <div class="service-box">📈 Local SEO</div>
-      <div class="service-box">🚀 E-commerce SEO</div>
+      <div class="service-box">🏪 Local SEO</div>
+      <div class="service-box">🛒 E-commerce SEO</div>
       <div class="service-box">🚀 Advanced SEO</div>
-     <div class="service-box"> 🚀Analytics & Reporting</div>
+     <div class="service-box"> 📈Analytics & Reporting</div>
     </div>
 
     <div class="unsure-section">
