@@ -7,11 +7,12 @@ get_header();
 <div class="service-hero-wrapper">
   <div class="hero-left slide-left">
     <h1>The SEO Specialist Your Company Needs</h1>
-    <p><a href="https://marketing.redpillread.com/">Red Pill Read Marketing</a> offers a complete suite of SEO optimization services to help your business increase organic visibility and traffic. Whether you need technical fixes, content optimization, or link building, I’ve got you covered from A to Z.</p>
+    <p class="service-intro">
+    <a href="https://marketing.redpillread.com/">Red Pill Read Marketing</a> offers a complete suite of SEO optimization services to help your business increase organic visibility and traffic. Whether you need technical fixes, content optimization, or link building, I’ve got you covered from A to Z.</p>
   </div>
 
   <div class="hero-right slide-right">
-    <h2>Pick the service that matches your goals</h2>
+    <h2 class="services-prompt">Pick the service that matches your goals</h2>
     <div class="services-grid">
       <div class="service-box">⚙️ Technical SEO</div>
       <div class="service-box">📄 On-Page Optimization</div>
