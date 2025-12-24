@@ -2288,7 +2288,42 @@ animation-delay: 0.25s;
     transform: translateX(0);
   }
 }
+@media (max-width: 768px) {
+  .service-hero-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
 
+  .hero-left, .hero-right {
+    width: 100%;
+  }
+
+  .hero-left.slide-left p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero-right.slide-right h2 {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr; /* Stack vertically */
+    gap: 0.5rem;
+  }
+
+  .unsure-section {
+    margin-top: 2rem;
+  }
+
+  .seo-audit-button {
+    width: auto;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+  }
+}
 
 
 
