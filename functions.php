@@ -112,3 +112,14 @@ function filter_blog_posts() {
 }
 add_action('wp_ajax_filter_blog_posts', 'filter_blog_posts');
 add_action('wp_ajax_nopriv_filter_blog_posts', 'filter_blog_posts');
+
+function child_theme_scripts() {
+    wp_enqueue_script(
+        'service-animations',
+        get_stylesheet_directory_uri() . '/assets/js/services-animation.js',
+        array(),
+        null,
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'child_theme_scripts');

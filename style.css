@@ -2412,6 +2412,25 @@ animation-delay: 0.25s;
     align-self: center;
   }
 }
-
+.service-detail-left,
+.service-detail-right {
+    opacity: 0;
+    transform: translateX(0); 
+    transition: all 0.8s ease-out;
+}
+.service-detail-left.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+.service-detail-left {
+    transform: translateX(-60px);
+}
+.service-detail-right.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+.service-detail-right {
+    transform: translateX(60px);
+}
 
 
