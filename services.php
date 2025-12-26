@@ -82,7 +82,13 @@ get_header();
             <input type="text" required>
 
             <label>Website URL</label>
-            <input type="url" required>
+<input 
+    type="text" 
+    name="website-url"
+    required
+    pattern="(https?://)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}"
+    placeholder="example.com or https://example.com"
+>
 
             <label>Contact Name</label>
             <input type="text" required>
