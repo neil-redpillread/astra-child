@@ -31,4 +31,48 @@ get_header();
     </div>
   </div>
 </div>
+<section id="technical-seo-services" class="service-detail technical-seo-section">
+   <div class="ast-container">
+    <div class="service-detail-wrapper">
+
+        <!-- LEFT COLUMN -->
+        <div class="service-detail-left">
+            <h2>Technical SEO Services</h2>
+
+            <p>
+                Technical SEO is the foundation that allows search engines to access, understand, 
+                and rank your website. Here’s our technical SEO checklist of services that covers 
+                all areas of technical SEO.
+            </p>
+
+            <ul class="service-bullets">
+                <li>Site Crawl & Indexation Fixes (robots.txt, XML sitemap, noindex tags)</li>
+                <li>Page Speed Optimization (Core Web Vitals, image compression, caching)</li>
+                <li>Mobile SEO & Responsive Optimization</li>
+                <li>HTTPS & Security (SSL fixes, mixed content removal)</li>
+                <li>Canonicalization & Duplicate Content Fixes</li>
+                <li>Structured Data (JSON-LD schema setup for rich results)</li>
+                <li>JavaScript SEO (rendering issues, lazy loading, dynamic content)</li>
+                <li>Crawl Budget Optimization (for large/enterprise sites)</li>
+                <li>Fixing Redirect Chains & Loops</li>
+                <li>Orphan Page Detection & Fixing</li>
+                <li>Site Migration SEO (domain changes, redesigns, HTTPS migrations)</li>
+            </ul>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="service-detail-right">
+            <img 
+    src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/service page/technical seo service section image showing Screaming Frong crawl and Google page speed inshights report and xml sitemap of a site.png" 
+    alt="technical seo service section image showing Screaming Frong crawl and Google page speed inshights report and xml sitemap of a site" 
+    class="service-detail-image"
+/>
+
+            <a href="/contact" class="cta-button technical-seo-cta">Start Now</a>
+        </div>
+
+    </div>
+    </div>
+</section>
+
 <?php get_footer(); ?>
