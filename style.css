@@ -2234,6 +2234,8 @@ animation-delay: 0.25s;
   border: 1px solid #ddd;
   cursor: pointer;
   transition: all 0.3s ease;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 .service-box:hover {

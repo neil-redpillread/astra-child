@@ -14,7 +14,7 @@ get_header();
   <div class="hero-right slide-right">
     <h2 class="services-prompt">Pick the service that matches your goals</h2>
     <div class="services-grid">
-      <div class="service-box">⚙️ Technical SEO</div>
+      <a href="/services/#technical-seo-services" class="service-box">⚙️ Technical SEO</a>
       <div class="service-box">📄 On-Page Optimization</div>
       <div class="service-box">🔗 Off-Page SEO</div>
       <div class="service-box">✍️ Content SEO</div>
