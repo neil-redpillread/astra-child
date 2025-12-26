@@ -10,7 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
+                // Element enters view → play animation
                 entry.target.classList.add('slide-in');
+            } else {
+                // Element leaves view → reset animation
+                entry.target.classList.remove('slide-in');
             }
         });
     }, observerOptions);
@@ -19,3 +23,4 @@ document.addEventListener("DOMContentLoaded", function () {
     if (rightEl) observer.observe(rightEl);
 
 });
+
