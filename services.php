@@ -68,8 +68,50 @@ get_header();
     class="service-detail-image"
 />
 
-            <a href="/contact" class="cta-button technical-seo-cta">Start Now</a>
+            <a href="#" class="cta-button technical-seo-cta cta-start-now">Start Now</a>
         </div>
+    <!-- Popup Modal -->
+<div id="audit-modal" class="audit-modal">
+    <div class="audit-modal-content">
+        <span class="audit-close">&times;</span>
+
+        <h2>Technical Audit Form</h2>
+
+        <form id="audit-form">
+            <label>Business Name</label>
+            <input type="text" required>
+
+            <label>Website URL</label>
+            <input type="url" required>
+
+            <label>Contact Name</label>
+            <input type="text" required>
+
+            <label>Email Address</label>
+            <input type="email" required>
+
+            <label>Phone Number (optional)</label>
+            <input type="text">
+
+            <label>Brief Description of Your Business</label>
+            <textarea required></textarea>
+
+            <label>What are your primary products or services?</label>
+            <textarea required></textarea>
+
+            <label>How soon are you looking to start SEO work?</label>
+            <select required>
+                <option>Immediately</option>
+                <option>Within 1–3 months</option>
+                <option>3–6 months</option>
+                <option>6+ months</option>
+            </select>
+
+            <button type="submit" class="audit-submit">Submit</button>
+        </form>
+    </div>
+</div>
+
 
     </div>
     </div>
