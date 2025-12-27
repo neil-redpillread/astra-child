@@ -79,34 +79,28 @@ get_header();
 
         <form id="audit-form">
             <label>Business Name</label>
-            <input type="text" required>
+            <input type="text" name="business-name" required>
 
             <label>Website URL</label>
-<input 
-    type="text" 
-    name="website-url"
-    required
-    pattern="(https?://)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}"
-    placeholder="example.com or https://example.com"
->
+            <input type="text" name="website_url" required placeholder="example.com or https://example.com">
 
             <label>Contact Name</label>
-            <input type="text" required>
+            <input type="text" name="contact-name" required>
 
             <label>Email Address</label>
-            <input type="email" required>
+            <input type="email" name="email-address" required>
 
             <label>Phone Number (optional)</label>
-            <input type="text">
+            <input type="text" name="phone">
 
             <label>Brief Description of Your Business</label>
-            <textarea required></textarea>
+            <textarea name="business_desc" required></textarea>
 
             <label>What are your primary products or services?</label>
-            <textarea required></textarea>
+            <textarea name="primary_services" required></textarea>
 
             <label>How soon are you looking to start SEO work?</label>
-            <select required>
+            <select name="start_time" required>
                 <option>Immediately</option>
                 <option>Within 1–3 months</option>
                 <option>3–6 months</option>
